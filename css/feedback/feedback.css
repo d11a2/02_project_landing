@@ -1,0 +1,84 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/feedback\/feedback\.scss}line{font-family:\000031}}
+.feedback {
+  background-color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/feedback\/feedback\.scss}line{font-family:\000033}}
+  .feedback-container {
+    padding-top: 68px;
+    padding-bottom: 63px;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/feedback\/feedback\.scss}line{font-family:\0000312}}
+  .feedback__content {
+    margin-top: 32px;
+    background-color: #F8FAF9;
+    padding: 42px;
+    width: 940px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/feedback\/feedback\.scss}line{font-family:\0000320}}
+  .feedback__img {
+    width: 253px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/feedback\/feedback\.scss}line{font-family:\0000324}}
+  .feedback__text-content {
+    margin-top: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 498px;
+    padding-left: 38px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/feedback\/feedback\.scss}line{font-family:\0000331}}
+  .feedback__author-title {
+    margin-top: 32px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #292929; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/feedback\/feedback\.scss}line{font-family:\0000338}}
+  .feedback__desc {
+    margin-top: 27px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #666; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/feedback\/feedback\.scss}line{font-family:\0000344}}
+  .feedback__author-name {
+    margin-top: 38px;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #292929; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/feedback\/feedback\.scss}line{font-family:\0000351}}
+  .feedback__pager {
+    margin-top: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/feedback\/feedback\.scss}line{font-family:\0000356}}
+  .feedback__item {
+    width: 74px;
+    height: 74px;
+    margin-left: 6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/feedback\/feedback\.scss}line{font-family:\0000360}}
+    .feedback__item:first-child {
+      margin-left: 0; }
+
+/*# sourceMappingURL=feedback.css.map */

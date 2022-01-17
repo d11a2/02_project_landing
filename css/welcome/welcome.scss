@@ -1,0 +1,90 @@
+.welcome {
+    $fcolor: #292929;
+    color: $fcolor;
+  //  height: 100%;
+
+    background-color: #F5F5F5;
+
+    &-container {
+        height: 100%;
+        padding-left: 80px;
+        // padding-right: 99px;
+        padding-bottom: 52px;
+        // position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+     }
+    &__content {
+        // display: flex;
+        // flex-direction: column;
+        padding-top: 98px; 
+        background: url("./../../img/welcome/Ellipse\ 5.png") right 80px center no-repeat;
+        // height: 100%;
+        min-height: 489px;
+    }
+
+    &__title {
+        width: 400px;
+    }
+
+    &__subtitle {
+        margin-top: 22px;
+        width: 400px;
+        font-size: 21px;
+        line-height: 25px;
+        color: #292929;
+    }
+    &__btn {
+        width: 163px;
+        height: 54px;
+        color: white;
+        background: #E01F3D;
+        font-size: 16px;
+        line-height: 18px;
+        border: 0px;
+        border-radius: 100px;
+        text-transform: uppercase;
+        font-weight: 700;
+        display: block;
+        margin-top: 36px;
+        margin-bottom: 70px;
+    }
+    
+    &__btn:hover {
+        color: #E01F3D;
+        background: white;
+        border: 2px;
+        border-color: #E01F3D;
+    }
+    &__features {
+        // position: absolute;
+        // display: block;
+        width: 544px;
+        font-size: 16px;
+        line-height: 18px;
+       
+        .features__list {
+            display: flex;
+            justify-content: space-between;
+            .features__item {
+                width: 166px;
+                height: 56px;
+                display: flex;
+                // justify-content: space-between;
+                .features__img {
+                    width: 52px;
+                }
+                .features__desc {
+                    width: 114px;
+                }
+            }
+        }
+    }
+}
+
+//@import url("welcome__title.css");
+//@import url("welcome__subtitle.css");
+//@import url("welcome__btn.css");
+//@import url("welcome__features.css");

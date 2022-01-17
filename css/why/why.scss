@@ -1,0 +1,86 @@
+.why {
+    $fcolor: #292929;
+
+  //  height: 100%;
+
+    background-color: white;
+
+    &-container {
+        padding-top: 101px;
+        padding-bottom: 98px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+   
+    &__subtitle {
+        width: 590px;
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 400;
+        text-align: center  ;
+        margin-top: 18px;
+    }
+
+    &__list {
+        margin-top: 62px;
+        display: flex;
+       // justify-content: space-between;
+       // min-width: 938px;
+       
+
+    }
+    &__item {
+        width: 276px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 55px;
+        position: relative;
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        &:before {
+            content: url("./../../img/why/Combined\ shape 2204.png");
+            width: 70px;
+            height: 24px;
+            // display: block;
+            top: 52px;
+            right: -25px;
+            transform: translateX(50%);
+            position:absolute;
+        }
+        &:last-child::before {
+            display: none;
+        }
+        
+    }
+    
+    &__img {
+        width: 128px;
+        height: 128px;
+        background-color: #F2F5F4;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__item-title {
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 24px;
+    }
+    &__desc {
+        font-size: 16px;
+        line-height: 19px;
+        color: #666;
+        text-align: center;
+        margin-top: 7px;
+    }
+}

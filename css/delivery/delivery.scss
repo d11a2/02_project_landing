@@ -1,0 +1,134 @@
+.delivery {
+    &__form {
+        display: flex;
+
+    }
+    background-color: #181818;
+    color: #fff;
+}
+
+.delivery-title {
+    text-align: center;
+    //margin-top: 68px;
+}
+
+.delivery-container {
+    height: 100%;
+    padding-top: 68px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 85px;
+}
+.delivery__form {
+    margin-top: 61px;
+}
+
+.form__col {
+    flex: 1;
+    margin-right: 27px;
+    width: 460px;
+    &:last-child {
+        margin-right: 0px;
+    }
+}
+
+.form__raw {
+    display: flex;
+    margin-bottom: 11px;
+    
+}
+
+.form__block {
+    flex: 1;
+    margin-right: 17px;
+    &:last-child {
+        margin-right: 0px;
+    }
+}
+
+.form__input {
+    width: 100%;
+    padding: 18px 12px;
+    border: solid 3px transparent;
+    // background: white;
+    &:focus {
+        border-color: #CA1B36;
+        outline: none;
+    }
+    &-textarea {
+        height: 158px;
+        resize: none;
+        margin-bottom: 11px;
+    }
+}
+
+.form__controls {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.radio {
+    display: flex;
+    cursor: pointer;
+    user-select: none;
+    margin-right: 16px;
+    margin-bottom: 19px;
+    &__checkbox {
+        display: flex;
+        cursor: pointer;
+        user-select: none;
+            .radio__visible {
+                border-radius: 0;
+                &:before {
+                    background: url("./../../img/delivery/Vector-6.png") center center no-repeat;
+                }
+            }
+            
+        }
+}
+
+.radio__elem {
+    display: none;
+
+    &:checked ~ .radio__visible {
+        &:before {
+            display: block;
+        }
+    }
+    
+}
+
+.radio__visible {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 10px;
+
+    &:before {
+        content: "";
+        width: 13px;
+        height: 13px;
+        background: #CA1B36;
+        border-radius: 50%;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        display: none;
+    }
+}
+
+.form__btns {
+    margin-top: 46px;
+    .welcome__btn {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        display: inline-block;
+        & ~ .welcome__btn {
+            background: none;
+        }
+    }
+    
+}
