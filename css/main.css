@@ -53,4 +53,9 @@ a {
   font-stretch: ultra-expanded;
   line-height: 58px; }
 
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100%; }
+
 /*# sourceMappingURL=main.css.map */

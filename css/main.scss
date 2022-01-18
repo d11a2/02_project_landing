@@ -59,6 +59,11 @@ a {
     line-height: 58px;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
 
 
 @import url("./normalize.css");
