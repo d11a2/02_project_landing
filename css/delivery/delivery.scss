@@ -4,23 +4,26 @@
 
     }
     background-color: #181818;
+    background: url(./../../img/delivery/photo_2022-01-18_15-18-50.jpg) center bottom no-repeat;
+    background-size: cover;
+
     color: #fff;
-}
 
-.delivery-title {
-    text-align: center;
-    //margin-top: 68px;
-}
+    &-title {
+        text-align: center;
+    }
 
-.delivery-container {
-    height: 100%;
-    padding-top: 68px;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-bottom: 85px;
-}
-.delivery__form {
-    margin-top: 61px;
+    &-container {
+        height: 100%;
+        padding-top: 68px;
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-bottom: 85px;
+    }
+
+    &__form {
+        margin-top: 61px;
+    }
 }
 
 .form__col {
@@ -35,8 +38,11 @@
 .form__raw {
     display: flex;
     margin-bottom: 11px;
-    
+    &:last-child {
+        margin-bottom: 0;
+    }
 }
+
 
 .form__block {
     flex: 1;
@@ -50,7 +56,6 @@
     width: 100%;
     padding: 18px 12px;
     border: solid 3px transparent;
-    // background: white;
     &:focus {
         border-color: #CA1B36;
         outline: none;

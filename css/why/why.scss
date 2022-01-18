@@ -1,8 +1,6 @@
 .why {
     $fcolor: #292929;
 
-  //  height: 100%;
-
     background-color: white;
 
     &-container {
@@ -82,5 +80,13 @@
         color: #666;
         text-align: center;
         margin-top: 7px;
+    }
+    position: relative;
+    &:before {
+        position: absolute;
+        z-index: 20;
+        bottom: -27px;
+        left: 5.5%;
+        content: url("./../../img/border_img/Vector\ 2.png");
     }
 }

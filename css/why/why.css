@@ -1,7 +1,8 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\000031}}
 .why {
-  background-color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\000038}}
+  background-color: white;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\000036}}
   .why-container {
     padding-top: 101px;
     padding-bottom: 98px;
@@ -19,7 +20,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\0000318}}
   .why__subtitle {
     width: 590px;
     font-size: 16px;
@@ -27,13 +28,13 @@
     font-weight: 400;
     text-align: center;
     margin-top: 18px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\0000327}}
   .why__list {
     margin-top: 62px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\0000335}}
   .why__item {
     width: 276px;
     display: -webkit-box;
@@ -48,10 +49,10 @@
             align-items: center;
     margin-left: 55px;
     position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\0000343}}
     .why__item:first-child {
       margin-left: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\0000347}}
     .why__item:before {
       content: url("./../../img/why/Combined shape 2204.png");
       width: 70px;
@@ -61,10 +62,10 @@
       -webkit-transform: translateX(50%);
               transform: translateX(50%);
       position: absolute; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\0000357}}
     .why__item:last-child::before {
       display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\0000363}}
   .why__img {
     width: 128px;
     height: 128px;
@@ -79,17 +80,24 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\0000372}}
   .why__item-title {
     font-size: 24px;
     line-height: 28px;
     margin-top: 24px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\0000377}}
   .why__desc {
     font-size: 16px;
     line-height: 19px;
     color: #666;
     text-align: center;
     margin-top: 7px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\0000385}}
+  .why:before {
+    position: absolute;
+    z-index: 20;
+    bottom: -27px;
+    left: 5.5%;
+    content: url("./../../img/border_img/Vector 2.png"); }
 
 /*# sourceMappingURL=why.css.map */

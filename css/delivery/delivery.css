@@ -1,73 +1,75 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\000031}}
 .delivery {
   background-color: #181818;
+  background: url(./../../img/delivery/photo_2022-01-18_15-18-50.jpg) center bottom no-repeat;
+  background-size: cover;
   color: #fff; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\000032}}
   .delivery__form {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000312}}
+  .delivery-title {
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000316}}
+  .delivery-container {
+    height: 100%;
+    padding-top: 68px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 85px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000324}}
+  .delivery__form {
+    margin-top: 61px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000310}}
-.delivery-title {
-  text-align: center; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000315}}
-.delivery-container {
-  height: 100%;
-  padding-top: 68px;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-bottom: 85px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000322}}
-.delivery__form {
-  margin-top: 61px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000329}}
 .form__col {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   margin-right: 27px;
   width: 460px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000333}}
   .form__col:last-child {
     margin-right: 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000338}}
 .form__raw {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 11px; }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000341}}
+  .form__raw:last-child {
+    margin-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000347}}
 .form__block {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   margin-right: 17px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000350}}
   .form__block:last-child {
     margin-right: 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000355}}
 .form__input {
   width: 100%;
   padding: 18px 12px;
   border: solid 3px transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000359}}
   .form__input:focus {
     border-color: #CA1B36;
     outline: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000363}}
   .form__input-textarea {
     height: 158px;
     resize: none;
     margin-bottom: 11px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000370}}
 .form__controls {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -75,7 +77,7 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000375}}
 .radio {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -87,7 +89,7 @@
           user-select: none;
   margin-right: 16px;
   margin-bottom: 19px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000381}}
   .radio__checkbox {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -97,21 +99,21 @@
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000385}}
     .radio__checkbox .radio__visible {
       border-radius: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000387}}
       .radio__checkbox .radio__visible:before {
         background: url("./../../img/delivery/Vector-6.png") center center no-repeat; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000395}}
 .radio__elem {
   display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\0000399}}
   .radio__elem:checked ~ .radio__visible:before {
     display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\00003106}}
 .radio__visible {
   width: 25px;
   height: 25px;
@@ -119,7 +121,7 @@
   border-radius: 50%;
   background-color: #fff;
   margin-right: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\00003114}}
   .radio__visible:before {
     content: "";
     width: 13px;
@@ -133,15 +135,15 @@
             transform: translate(-50%, -50%);
     display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\00003128}}
 .form__btns {
   margin-top: 46px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\00003130}}
   .form__btns .welcome__btn {
     margin-top: 0px;
     margin-bottom: 0px;
     display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/delivery\/delivery\.scss}line{font-family:\00003134}}
     .form__btns .welcome__btn ~ .welcome__btn {
       background: none; }
 

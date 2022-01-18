@@ -18,6 +18,11 @@ body, html {
   width: 100%;
   height: 100%; }
 
+section {
+  height: 100vh; }
+  section a {
+    color: #292929; }
+
 h1, h2, h3, h4, p {
   padding: 0;
   margin: 0; }

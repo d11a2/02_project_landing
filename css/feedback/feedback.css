@@ -1,6 +1,7 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/feedback\/feedback\.scss}line{font-family:\000031}}
 .feedback {
-  background-color: white; }
+  background-color: white;
+  position: relative; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/feedback\/feedback\.scss}line{font-family:\000033}}
   .feedback-container {
     padding-top: 68px;
@@ -74,11 +75,43 @@
             justify-content: center; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/feedback\/feedback\.scss}line{font-family:\0000356}}
   .feedback__item {
-    width: 74px;
-    height: 74px;
     margin-left: 6px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/feedback\/feedback\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/feedback\/feedback\.scss}line{font-family:\0000358}}
     .feedback__item:first-child {
       margin-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/feedback\/feedback\.scss}line{font-family:\0000363}}
+  .feedback .interactive-icon {
+    display: block;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    border: solid 4px transparent;
+    overflow: hidden;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/feedback\/feedback\.scss}line{font-family:\0000373}}
+  .feedback .active {
+    border: solid 4px #E01F3D; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/feedback\/feedback\.scss}line{font-family:\0000376}}
+  .feedback__link {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/feedback\/feedback\.scss}line{font-family:\0000384}}
+  .feedback__item-icon {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/feedback\/feedback\.scss}line{font-family:\0000392}}
+  .feedback:before {
+    position: absolute;
+    z-index: 20;
+    bottom: -27px;
+    left: 7.3%;
+    content: url("./../../img/border_img/Ellipse 7.png"); }
 
 /*# sourceMappingURL=feedback.css.map */

@@ -1,27 +1,22 @@
 .welcome {
     $fcolor: #292929;
+    $mr_step: 7.3%;
     color: $fcolor;
-  //  height: 100%;
 
     background-color: #F5F5F5;
 
     &-container {
         height: 100%;
-        padding-left: 80px;
-        // padding-right: 99px;
-        padding-bottom: 52px;
-        // position: relative;
+        padding-left: $mr_step;
         display: flex;
+        align-items: flex-start;
         justify-content: space-between;
         flex-direction: column;
-        
      }
     &__content {
-        // display: flex;
-        // flex-direction: column;
-        padding-top: 98px; 
-        background: url("./../../img/welcome/Ellipse\ 5.png") right 80px center no-repeat;
-        // height: 100%;
+        width: 100%;
+        padding-top: 48px; 
+        background: url("./../../img/welcome/Ellipse\ 5.png") left 432px center no-repeat;
         min-height: 489px;
     }
 
@@ -47,7 +42,6 @@
         border-radius: 100px;
         text-transform: uppercase;
         font-weight: 700;
-        display: block;
         margin-top: 36px;
         margin-bottom: 70px;
     }
@@ -59,28 +53,43 @@
         border-color: #E01F3D;
     }
     &__features {
-        // position: absolute;
-        // display: block;
-        width: 544px;
+        
+        display: flex;
+        $step: 8px;
+        margin-bottom: 50px;
+        width: 100%;
         font-size: 16px;
         line-height: 18px;
        
         .features__list {
             display: flex;
-            justify-content: space-between;
+            justify-content: start;
             .features__item {
+                margin-right: $step;
                 width: 166px;
                 height: 56px;
                 display: flex;
-                // justify-content: space-between;
                 .features__img {
+                    text-align: center;
                     width: 52px;
                 }
                 .features__desc {
-                    width: 114px;
+                    padding-left: 10px;
+                }
+                &:last-child {
+                    margin-right: 0;
                 }
             }
         }
+    }
+
+    position: relative;
+    &:before {
+        position: absolute;
+        z-index: 20;
+        bottom: -27px;
+        right: 11.5%;
+        content: url("./../../img/border_img/Rectangle\ 14.png");
     }
 }
 

@@ -16,6 +16,11 @@ body, html {
     height: 100%;
     
 }
+section {
+    height: 100vh;
+    $bl_clr: #292929;
+    a {color: $bl_clr;}
+}
 
 h1, h2, h3, h4, p {
     padding: 0;
