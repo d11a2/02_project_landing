@@ -31,10 +31,7 @@
     &__list {
         margin-top: rem(62px);
         display: flex;
-       // justify-content: space-between;
-       // min-width: rem(938px);
-       
-
+      
     }
     &__item {
         width: rem(276px);
@@ -52,7 +49,6 @@
             content: url("./../../img/why/Combined\ shape 2204.png");
             width: rem(70px);
             height: rem(24px);
-            // display: block;
             top: rem(52px);
             right: rem(-25px);
             transform: translateX(50%);

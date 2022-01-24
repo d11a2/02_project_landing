@@ -1,8 +1,4 @@
-// $cntnrWidth: 1100px;
-// $baseFontSize: 18px;
-// $tablets: 768px;
-// $phones: 480px;
-// $fcolor: #292929;
+
 @import "media";
 
 html {
@@ -66,9 +62,7 @@ a {
 
 }
 .body-container {
-   // max-width: $cntnrWidth;
     width: 100%;
-    //padding: 0 rem(10px);  
 }
 
 .section-title {
@@ -81,8 +75,7 @@ a {
 
 .container {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    margin: auto;
     height: 100%;
     max-width: $cntnrWidth;
 }
@@ -95,46 +88,4 @@ a {
 @import url("./feedback/feedback.css");
 @import url("./delivery/delivery.css");
 @import url("./hamburger.css");
-
-
-// $variable: rem(50px);
-// $text: "hello world";
-// $cred: red;
-
-// body {
-//     background: green;
-// }
-
-// .block {
-//     height: rem(300px);
-//     border: 1px solid #000;
-
-//     &__one {
-//         height: $variable - rem(15px);
-//         width: rem(200px);
-//         background: $cred;
-    
-//         &:hover { background: blue;}
-//         &:after {
-//             content: $text;
-//         }
-//         & + .block__one {
-//             background: #000;
-//             &:hover {
-//                 background: white;
-//             }
-//         }
-//     }
-
-//     &__two {
-//         width: rem(100px);
-//         height: $variable;
-//         $cred: #FF3500;
-//         background: $cred;
-
-//         &:after {
-//             content: $text;
-//         }
-//     }
-// }
 
