@@ -1,4 +1,13 @@
+@import "./../media";
 .delivery {
+    &-content-wrapper {
+        height: 100vh;
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     &__form {
         display: flex;
 
@@ -14,22 +23,28 @@
     }
 
     &-container {
-        height: 100%;
-        padding-top: 68px;
-        padding-left: 80px;
-        padding-right: 80px;
-        padding-bottom: 85px;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        // padding-top: rem(68px);
+        // padding-left: rem(80px);
+        // padding-right: rem(80px);
+        // padding-bottom: rem(85px);
     }
 
     &__form {
-        margin-top: 61px;
+        margin-top: rem(61px);
     }
+}
+
+.form__title {
+    margin-bottom: 6px;
 }
 
 .form__col {
     flex: 1;
-    margin-right: 27px;
-    width: 460px;
+    margin-right: rem(27px);
+    width: 48%;//rem(460px);
     &:last-child {
         margin-right: 0px;
     }
@@ -37,7 +52,7 @@
 
 .form__raw {
     display: flex;
-    margin-bottom: 11px;
+    margin-bottom: rem(11px);
     &:last-child {
         margin-bottom: 0;
     }
@@ -46,7 +61,7 @@
 
 .form__block {
     flex: 1;
-    margin-right: 17px;
+    margin-right: rem(17px);
     &:last-child {
         margin-right: 0px;
     }
@@ -54,16 +69,17 @@
 
 .form__input {
     width: 100%;
-    padding: 18px 12px;
-    border: solid 3px transparent;
+    height: 58px;
+    padding: rem(18px) rem(12px);
+    border: solid rem(3px) transparent;
     &:focus {
         border-color: #CA1B36;
         outline: none;
     }
     &-textarea {
-        height: 158px;
+        height: 152px;
         resize: none;
-        margin-bottom: 11px;
+        margin-bottom: rem(24px);
     }
 }
 
@@ -76,8 +92,8 @@
     display: flex;
     cursor: pointer;
     user-select: none;
-    margin-right: 16px;
-    margin-bottom: 19px;
+    margin-right: rem(16px);
+    margin-bottom: rem(19px);
     &__checkbox {
         display: flex;
         cursor: pointer;
@@ -104,17 +120,17 @@
 }
 
 .radio__visible {
-    width: 25px;
-    height: 25px;
+    width: rem(25px);
+    height: rem(25px);
     position: relative;
     border-radius: 50%;
     background-color: #fff;
-    margin-right: 10px;
+    margin-right: rem(10px);
 
     &:before {
         content: "";
-        width: 13px;
-        height: 13px;
+        width: rem(13px);
+        height: rem(13px);
         background: #CA1B36;
         border-radius: 50%;
         position: absolute;
@@ -127,6 +143,7 @@
 
 .form__btns {
     margin-top: 46px;
+    margin-left: -9px;
     .welcome__btn {
         margin-top: 0px;
         margin-bottom: 0px;
@@ -136,4 +153,45 @@
         }
     }
     
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
+
+@include tablets {
+    .delivery {
+
+        &__form {
+            flex-direction: column;
+            align-items: center;
+            .form__col {
+                width: 90%;
+                margin-right: 0;
+            }
+            .form__raw {
+                margin-bottom: 14px;
+                
+                &:last-child {
+                    margin-bottom: 16px;
+                    justify-content: center;
+                }
+                
+            }
+            .form__raw.mb0 {
+                margin-bottom: 0;
+            }
+
+            .form__block.mr5p:first-child {
+                margin-right: 5%;
+            }
+            .form__title {
+                margin-bottom: 3px;
+            }
+        }
+        .form__btns {
+            margin-top: 38px;
+        }
+    }
+
 }

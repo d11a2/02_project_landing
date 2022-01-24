@@ -1,11 +1,14 @@
+@import "./../media";
+
 .why {
-    $fcolor: #292929;
+    
 
     background-color: white;
 
     &-container {
-        padding-top: 101px;
-        padding-bottom: 98px;
+        width: 100%;
+        padding-top: rem(101px);
+        padding-bottom: rem(98px);
         height: 100%;
         display: flex;
         justify-content: center;
@@ -16,28 +19,29 @@
     }
    
     &__subtitle {
-        width: 590px;
-        font-size: 16px;
-        line-height: 19px;
+        color: #666;
+        width: rem(590px);
+        font-size: rem(16px);
+        line-height: rem(19px);
         font-weight: 400;
         text-align: center  ;
-        margin-top: 18px;
+        margin-top: rem(18px);
     }
 
     &__list {
-        margin-top: 62px;
+        margin-top: rem(62px);
         display: flex;
        // justify-content: space-between;
-       // min-width: 938px;
+       // min-width: rem(938px);
        
 
     }
     &__item {
-        width: 276px;
+        width: rem(276px);
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 55px;
+        margin-left: rem(55px);
         position: relative;
 
         &:first-child {
@@ -46,11 +50,11 @@
 
         &:before {
             content: url("./../../img/why/Combined\ shape 2204.png");
-            width: 70px;
-            height: 24px;
+            width: rem(70px);
+            height: rem(24px);
             // display: block;
-            top: 52px;
-            right: -25px;
+            top: rem(52px);
+            right: rem(-25px);
             transform: translateX(50%);
             position:absolute;
         }
@@ -61,8 +65,8 @@
     }
     
     &__img {
-        width: 128px;
-        height: 128px;
+        width: rem(128px);
+        height: rem(128px);
         background-color: #F2F5F4;
         border-radius: 50%;
         display: flex;
@@ -70,23 +74,38 @@
         justify-content: center;
     }
     &__item-title {
-        font-size: 24px;
-        line-height: 28px;
-        margin-top: 24px;
+        font-size: rem(24px);
+        line-height: rem(28px);
+        margin-top: rem(24px);
     }
     &__desc {
-        font-size: 16px;
-        line-height: 19px;
+        font-size: rem(16px);
+        line-height: rem(19px);
         color: #666;
         text-align: center;
-        margin-top: 7px;
+        margin-top: rem(7px);
     }
     position: relative;
     &:before {
         position: absolute;
         z-index: 20;
-        bottom: -27px;
+        bottom: rem(-27px);
         left: 5.5%;
         content: url("./../../img/border_img/Vector\ 2.png");
+    }
+}
+
+@include tablets {
+
+    .why {
+        &__item {
+            width: rem(260px);
+
+            &:before {
+                display: none;
+            }
+            margin-left: 0%;
+        }
+        
     }
 }

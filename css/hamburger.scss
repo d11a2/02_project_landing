@@ -1,0 +1,29 @@
+@import "./media";
+
+.hamburger {
+    width: 26px;
+    height: 22px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: none;
+
+    @include tablets {
+        display: inline-flex;
+    }
+
+    &__plank {
+        display: block;
+        background: $fcolor;
+        height: 4px;
+        border-radius: 10px;
+        border: 0;
+    }
+}
+
+@include tablets {
+    .hamburger {
+        position: absolute;
+        right: rem(0px);
+    }
+}

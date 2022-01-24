@@ -54,7 +54,7 @@
                                 </ul>
                                 
                             </nav>
-                            <address class="header__contacts">
+                            <address class="header__contacts header__phone">
                                 <div class="contacts__phone">
                                     <div class="contacts__phone-icon">
                                         <img src="./img/header/Vector-2.png" alt="" class="phone__img">
@@ -64,15 +64,28 @@
                                     </div>
                                 </div>
                             </address>
+                            <a href="#" class="hamburger">
+                                <span class="hamburger__plank"></span>
+                                <span class="hamburger__plank"></span>
+                                <span class="hamburger__plank"></span>
+                            </a>
                         </header>
                         <div class="welcome__content">
-                 
-                            <h1 class="welcome__title section-title">Беспроводные наушники Beats Solo 3</h1>
-                            <div class="welcome__subtitle">
-                                <p>Встречайте новую версию наушников из линейки Powerbeats.</p>
+                            <div class="welcome__content-wrapper">
+                                <div class="welcome__content-col">
+                                    <h1 class="welcome__title section-title">Беспроводные наушники Beats Solo 3</h1>
+                                    <div class="welcome__subtitle">
+                                        <p>Встречайте новую версию наушников из линейки Powerbeats.</p>
+                                    </div>
+                                    <button type="submit" class="welcome__btn">Заказать</button>
+                                </div>
+                                <div class="welcome__content-col">
+                                    <div class="welcome__img-block">
+                                    </div>
+                                </div>
                             </div>
-                            <button type="submit" class="welcome__btn">Заказать</button>
-                           
+                            
+
                         </div>  
                         <div class="welcome__features">
                             <ul class="features__list">
@@ -177,7 +190,7 @@
                             </h3>
                             <div class="feedback__desc">
                                 <p>
-                                    Я ем малыми порциями, но часто. Это повышает мою продуктивность в разы. В течение дня сижу за компьютером и часто отходить в кафе или на кухню просто не могу себе позволить. А батончик – он всегда под рукой. Это приятно и удобно. 
+                                    Я ем малыми порциями, но часто. Это повышает мою продуктивность в разы. В течение дня сижу за компьютером и часто отходить в кафе или на кухню просто не могу себе позволить. А батончик – он всегда под рукой. А батончик – он всегда под рукой. А батончик – он всегда под рукой.А батончик – он всегда под рукой. А батончик – он всегда под рукой. А батончик – он всегда под рукой. А батончик – он всегда под рукой. А батончик – он всегда под рукой. А батончик – он всегда под рукой. А батончик – он всегда под рукой. Это приятно и удобно. 
                                 </p>
                             </div>
                             <h4 class="feedback__author-name">
@@ -206,98 +219,94 @@
             </section>
             <section class="delivery">
                 <div class="delivery-container">
-                    <h1 class="delivery-title section-title">
-                        закажите доставку
-                    </h1>
-                    <form  class="delivery__form" action="">
-                            <div class="form__col">
-                                <div class="form__raw">
-                                    <label for="" class="form__block">
-                                        <div class="form__title">Имя</div>
-                                        <input type="text" class="form__input">
-                                    </label>
-                                    <label for="" class="form__block">
-                                        <div class="form__title">Телефон</div>
-                                        <input type="text" class="form__input">
-                                    </label>
-                                </div>
-                                <div class="form__raw">
-                                    <label for="" class="form__block">
-                                        <div class="form__title">Улица</div>
-                                        <input type="text" class="form__input">
-                                    </label>
-                                </div>
-                                <div class="form__raw">
-                                    <label for="" class="form__block">
-                                        <div class="form__title">Дом</div>
-                                        <input type="text" class="form__input">
-                                    </label>
-                                    <label for="" class="form__block">
-                                        <div class="form__title">Корпус</div>
-                                        <input type="text" class="form__input">
-                                    </label>
-                                    <label for="" class="form__block">
-                                        <div class="form__title">Квартира</div>
-                                        <input type="text" class="form__input">
-                                    </label>
-                                    <label for="" class="form__block">
-                                        <div class="form__title">Этаж</div>
-                                        <input type="text" class="form__input">
-                                    </label>
-                                </div>  
-                            </div>
-                       
-                            <div class="form__col">
-                                <div class="form__raw">
-                                    <label for="" class="form__block">
-                                        <div class="form__title">Комментарий</div>
-                                        <textarea type="text" class="form__input form__input-textarea"></textarea>
-                                    </label>
-                                </div>
-                                <div class="form__raw">
-                                    <div class="form__controls">
-                                        <label  class="radio">
-                                            <input type="radio" name="option" class="radio__elem">
-                                            <div class="radio__visible">
-                                            </div>
-                                            <div class="radio__title">Потребуется сдача</div>
+                    <div class="delivery-content-wrapper">
+                        <h1 class="delivery-title section-title">
+                            закажите доставку
+                        </h1>
+                        <form  class="delivery__form" action="">
+                                <div class="form__col">
+                                    <div class="form__raw">
+                                        <label for="" class="form__block mr5p">
+                                            <div class="form__title">Имя</div>
+                                            <input type="text" class="form__input">
                                         </label>
-                                    
-                                        <label class="radio">
-                                            <input type="radio" name="option" class="radio__elem">
-                                            <div class="radio__visible">
-                                            </div>
-                                            <div class="radio__title">Оплата картой</div>
+                                        <label for="" class="form__block">
+                                            <div class="form__title">Телефон</div>
+                                            <input type="text" class="form__input">
                                         </label>
                                     </div>
-                                </div>
-                                <div class="form__raw">
-                                    <div class="form__controls">
-                                        <label  class="radio__checkbox">
-                                            <input type="checkbox" class="radio__elem">
-                                            <div class="radio__visible">
-                                            </div>
-                                            <div class="radio__title">Не перезванивать</div>
+                                    <div class="form__raw">
+                                        <label for="" class="form__block">
+                                            <div class="form__title">Улица</div>
+                                            <input type="text" class="form__input">
+                                        </label>
+                                    </div>
+                                    <div class="form__raw">
+                                        <label for="" class="form__block">
+                                            <div class="form__title">Дом</div>
+                                            <input type="text" class="form__input">
+                                        </label>
+                                        <label for="" class="form__block">
+                                            <div class="form__title">Корпус</div>
+                                            <input type="text" class="form__input">
+                                        </label>
+                                        <label for="" class="form__block">
+                                            <div class="form__title">Квартира</div>
+                                            <input type="text" class="form__input">
+                                        </label>
+                                        <label for="" class="form__block">
+                                            <div class="form__title">Этаж</div>
+                                            <input type="text" class="form__input">
                                         </label>
                                     </div>  
-                                
-                                    
-                                </div>   
-                                <div class="form__raw">
-                                    <div class="form__btns">
-                                        <button class="welcome__btn">Заказать</button>
-                                        <button class="welcome__btn">Очистить</button>
+                                </div>
+                           
+                                <div class="form__col">
+                                    <div class="form__raw">
+                                        <label for="" class="form__block">
+                                            <div class="form__title">Комментарий</div>
+                                            <textarea type="text" class="form__input form__input-textarea"></textarea>
+                                        </label>
                                     </div>
-                                </div> 
+                                    <div class="form__raw">
+                                        <div class="form__controls">
+                                            <label  class="radio">
+                                                <input type="radio" name="option" class="radio__elem">
+                                                <div class="radio__visible">
+                                                </div>
+                                                <div class="radio__title">Потребуется сдача</div>
+                                            </label>
+                                        
+                                            <label class="radio">
+                                                <input type="radio" name="option" class="radio__elem">
+                                                <div class="radio__visible">
+                                                </div>
+                                                <div class="radio__title">Оплата картой</div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="form__raw mb0">
+                                        <div class="form__controls">
+                                            <label  class="radio__checkbox">
+                                                <input type="checkbox" class="radio__elem">
+                                                <div class="radio__visible">
+                                                </div>
+                                                <div class="radio__title">Не перезванивать</div>
+                                            </label>
+                                        </div>  
                                     
-                                
-                                
-                            </div>
-
-                       
-                       
-
-                    </form>
+                                        
+                                    </div>   
+                                    <div class="form__raw mb0">
+                                        <div class="form__btns">
+                                            <button class="welcome__btn">Заказать</button>
+                                            <button class="welcome__btn">Очистить</button>
+                                        </div>
+                                    </div> 
+                                </div>
+                        </form>
+                    </div>
+                    
                 </div>
 
             </section>

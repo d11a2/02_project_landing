@@ -1,3 +1,21 @@
+// $cntnrWidth: 1100px;
+// $baseFontSize: 18px;
+// $tablets: 768px;
+// $phones: 480px;
+// $fcolor: #292929;
+@import "media";
+
+html {
+    font-size: $baseFontSize;
+    @include tablets {
+        font-size: $baseFontSize - 1px;
+    }
+    @include phones {
+        font-size: $baseFontSize - 2px;
+
+    }
+}
+// (?!rem\()-?\d+px(?!\))
 *{
     box-sizing: border-box;
 }
@@ -5,7 +23,7 @@
 body {
     font-family: "Play";
     margin: 0px;   
-    font-size: 18px;
+    background-color: #fff;
     -webkit-font-smoothing: atnialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -41,42 +59,45 @@ a {
 }
 .body-wrapper {
     min-height: 100%;
+
     overflow: hidden;
     display: flex;
     justify-content: center;
+
 }
 .body-container {
-    min-width: 1100px;
+   // max-width: $cntnrWidth;
     width: 100%;
-    // flex-direction: column;  
+    //padding: 0 rem(10px);  
 }
 
 .section-title {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 48px;
+    font-size: rem(48px);
     font-stretch: ultra-expanded;
-    line-height: 58px;
+    line-height: rem(58px);
 }
 
 .container {
+    width: 100%;
     display: flex;
     justify-content: center;
     height: 100%;
+    max-width: $cntnrWidth;
 }
 
 
 @import url("./normalize.css");
-@import url("./header/header.css");
+@import "./header/header.css";
 @import url("./welcome/welcome.css");
 @import url("./why/why.css");
 @import url("./feedback/feedback.css");
 @import url("./delivery/delivery.css");
+@import url("./hamburger.css");
 
 
-
-
-// $variable: 50px;
+// $variable: rem(50px);
 // $text: "hello world";
 // $cred: red;
 
@@ -85,12 +106,12 @@ a {
 // }
 
 // .block {
-//     height: 300px;
+//     height: rem(300px);
 //     border: 1px solid #000;
 
 //     &__one {
-//         height: $variable - 15px;
-//         width: 200px;
+//         height: $variable - rem(15px);
+//         width: rem(200px);
 //         background: $cred;
     
 //         &:hover { background: blue;}
@@ -106,7 +127,7 @@ a {
 //     }
 
 //     &__two {
-//         width: 100px;
+//         width: rem(100px);
 //         height: $variable;
 //         $cred: #FF3500;
 //         background: $cred;

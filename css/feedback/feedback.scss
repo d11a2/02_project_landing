@@ -1,8 +1,9 @@
+@import "./../media";
 .feedback {
     background-color: white;
     &-container {
-        padding-top: 68px;
-        padding-bottom: 63px;
+        padding-top: rem(68px);
+        padding-bottom: rem(63px);
         height: 100%;
         display: flex;
         justify-content: center;
@@ -10,41 +11,41 @@
         align-items: center;
     }
     &__content {
-        margin-top: 32px;
+        margin-top: rem(32px);
         background-color: #F8FAF9;
-        padding: 42px;
-        width: 940px;
+        padding: rem(42px);
+        width: rem(940px);
         display: flex;
 
     }
     &__img {
-        width: 253px;
+        width: rem(253px);
     }
 
     &__text-content {
-        margin-top: 32px;
+        margin-top: rem(32px);
         display: flex;
         flex-direction: column;
-        width: 498px;
-        padding-left: 38px;
+        width: rem(498px);
+        padding-left: rem(38px);
     }
     &__author-title {
-        margin-top: 32px;
-        font-size: 24px;
-        line-height: 28px;
+        margin-top: rem(32px);
+        font-size: rem(24px);
+        line-height: rem(28px);
         font-weight: 700;
         color: #292929;
     }
     &__desc {
-        margin-top: 27px;
+        margin-top: rem(27px);
         font-size: 16px;
-        line-height: 19px;
+        line-height: rem(19px);
         color: #666;
     }
     &__author-name {
-        margin-top: 38px;
-        font-size: 18px;
-        line-height: 21px;
+        margin-top: rem(38px);
+        font-size: rem(18px);
+        line-height: rem(21px);
         font-weight: 700;
         color: #292929;
     }
@@ -54,7 +55,7 @@
         justify-content: center;
     }
     &__item {
-        margin-left: 6px;
+        margin-left: rem(6px);
         &:first-child {
             margin-left: 0;
         }
@@ -62,8 +63,8 @@
 
     .interactive-icon {
         display: block;
-        width: 74px;
-        height: 74px;
+        width: rem(74px);
+        height: rem(74px);
         border-radius: 50%;
         border: solid 4px transparent; 
         overflow: hidden; 
@@ -92,8 +93,72 @@
     &:before {
         position: absolute;
         z-index: 20;
-        bottom: -27px;
+        bottom: rem(-27px);
         left: 7.3%;
         content: url("./../../img/border_img/Ellipse\ 7.png");
+    }
+}
+
+@include tablets {
+    .feedback {
+        &__content {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 94%;
+            padding: 56px 23px 15px 23px;
+            margin-top: 33px;
+            position: relative;
+            &::before {
+                position: absolute;
+                content: "";
+                top: -6.6px;
+                left: 50%;
+                width: 83px;
+                height: 83px;
+                background: white;
+                border-radius: 50%;
+                
+                transform: translate(-50%, -50%);
+                display: block;
+            }
+        }
+        &__img {
+            width: 130px;
+            height: 130px;
+        }
+        &__icon {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+        }
+        &__text-content {
+            padding: 0;
+            margin-top: 32px;
+            width: 100%;
+
+        }
+        &__author-title {
+            margin-top: 0;
+        }
+        &__desc {
+            margin-top: 16px;
+            font-size: 16px;
+
+        }
+        &__author-name {
+            margin-top: 16px;
+            margin-bottom: 25px;
+            font-size: 18px;
+            line-height: rem(24px);
+            font-weight: 400;
+        }
+        &__pager {
+            margin-top: 32px;
+        }
+        &-title {
+            z-index: 10;
+        }
     }
 }

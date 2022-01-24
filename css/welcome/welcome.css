@@ -1,73 +1,87 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\000034}}
 .welcome {
+  width: 100%;
   color: #292929;
-  padding-left: 7.3%;
+  padding-left: 7%;
   padding-right: 10%;
-  background-color: #F5F5F5;
+  background: #F5F5F5;
   position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\0000312}}
   .welcome-container {
     height: 100%;
-    max-width: 1100px;
+    width: 100%;
+    max-width: 61.1111111111rem;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\0000325}}
+  .welcome__content {
+    height: 75%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\0000318}}
-  .welcome__content {
-    width: 100%;
-    padding-top: 48px;
-    background: url("./../../img/welcome/Ellipse 5.png") right center no-repeat;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     min-height: 489px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\0000341}}
+  .welcome__content-wrapper {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 489px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\0000353}}
+  .welcome__img-block {
+    width: 489px;
+    height: 489px;
+    margin-left: 1.7777777778rem;
+    background: url("./../../img/welcome/Ellipse 5.png") no-repeat;
+    background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\0000360}}
   .welcome__title {
-    width: 400px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\0000329}}
+    width: 22.2222222222rem;
+    margin-top: 2.6111111111rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\0000365}}
   .welcome__subtitle {
-    margin-top: 22px;
-    width: 400px;
-    font-size: 21px;
-    line-height: 25px;
+    display: block;
+    margin-top: 1.2222222222rem;
+    width: 22.2222222222rem;
+    font-size: 1.1666666667rem;
+    line-height: 1.3888888889rem;
     color: #292929; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\0000375}}
   .welcome__btn {
-    width: 163px;
-    height: 54px;
+    width: 9.0555555556rem;
+    height: 3rem;
     color: white;
     background: #E01F3D;
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 0.8888888889rem;
+    line-height: 1rem;
     border: 0px;
-    border-radius: 100px;
+    border-radius: 5.5555555556rem;
     text-transform: uppercase;
     font-weight: 700;
-    margin-top: 36px;
-    margin-bottom: 70px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\0000351}}
+    margin-top: 2rem;
+    margin-bottom: 3.8888888889rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\0000390}}
   .welcome__btn:hover {
     color: #E01F3D;
     background: white;
-    border: 2px;
+    border: 0.1111111111rem;
     border-color: #E01F3D; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\0000396}}
   .welcome__features {
+    position: absolute;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-bottom: 50px;
+    bottom: 2.7777777778rem;
     width: 100%;
-    font-size: 16px;
-    line-height: 18px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\0000366}}
+    font-size: 0.8888888889rem;
+    line-height: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\00003105}}
     .welcome__features .features__list {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -75,30 +89,81 @@
       -webkit-box-pack: start;
           -ms-flex-pack: start;
               justify-content: start; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\00003108}}
       .welcome__features .features__list .features__item {
-        margin-right: 8px;
-        width: 166px;
-        height: 56px;
+        margin-right: 0.4444444444rem;
+        width: 9.2222222222rem;
+        height: 3.1111111111rem;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\00003113}}
         .welcome__features .features__list .features__item .features__img {
           text-align: center;
-          width: 52px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\0000378}}
+          width: 2.8888888889rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\00003117}}
         .welcome__features .features__list .features__item .features__desc {
-          padding-left: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\0000381}}
+          padding-left: 0.5555555556rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\00003120}}
         .welcome__features .features__list .features__item:last-child {
           margin-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\00003128}}
   .welcome:before {
     position: absolute;
     z-index: 20;
-    bottom: -27px;
+    bottom: -1.5rem;
     right: 11.5%;
     content: url("./../../img/border_img/Rectangle 14.png"); }
+
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\00003138}}
+  .welcome {
+    padding-left: 1.2222222222rem;
+    padding-right: 1.2222222222rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\00003141}}
+    .welcome__content {
+      margin-top: 10%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\00003144}}
+    .welcome__content-wrapper {
+      z-index: 10;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+          -ms-flex-direction: column-reverse;
+              flex-direction: column-reverse;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\00003150}}
+    .welcome__img-block {
+      width: 323px;
+      height: 323px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\00003154}}
+    .welcome__features {
+      display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\00003157}}
+    .welcome__title {
+      width: 100%;
+      max-width: 35.8333333333rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\00003161}}
+    .welcome__subtitle {
+      width: 380px;
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/welcome\/welcome\.scss}line{font-family:\00003166}}
+    .welcome__content-col {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      text-align: center; } }
+@media screen and (max-width: 480px) {
+  display: none; }
 
 /*# sourceMappingURL=welcome.css.map */
