@@ -189,6 +189,28 @@
         .form__btns {
             margin-top: 38px;
         }
+        .form__input {
+            height: 36px;
+        }
     }
 
+}
+
+@include phones {
+    .delivery {
+        &-title.section-title {
+            font-size: 32px;
+            line-height: 36px;
+            text-align: center;
+        }
+        .form__raw {
+            //display: flex;
+            justify-content: center;
+            
+        }
+        &-content-wrapper {
+            width: 100%;
+        }
+        
+    } 
 }

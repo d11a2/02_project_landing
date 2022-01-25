@@ -89,6 +89,9 @@
         left: 5.5%;
         content: url("./../../img/border_img/Vector\ 2.png");
     }
+    .text-block {
+        text-align: center;
+    }
 }
 
 @include tablets {
@@ -105,3 +108,51 @@
         
     }
 }
+
+
+@include phones {
+    
+    .why {
+        
+        &__title.section-title {
+            font-size: 32px;
+            line-height: 36px;
+            text-align: center;
+        }
+
+        &__subtitle {
+            width: 90%;
+            font-size: 16px;
+            line-height: 19px;
+        }
+        &__item-title {
+            text-align: left;
+        }
+        &__desc {
+            text-align: left;
+            margin-top: 6px;
+        }
+        &__list {
+            margin-top: 53px;
+            display: flex;
+            flex-direction: column;
+        }
+        &__img  {
+            flex-shrink: 0;
+            width: 128px;
+            height: 128px;
+        }
+        &__item {
+            width: 90%;
+            display: flex;
+            flex-direction:row;
+           // align-items: center;
+        .text-block {
+            padding-left: 12px;
+        }   
+            
+        }
+       
+    }
+}
+

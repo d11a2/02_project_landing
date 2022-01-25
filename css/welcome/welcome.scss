@@ -42,7 +42,6 @@
 
     &__subtitle {
          display: block;
-       // display: flex;
         margin-top: rem(22px);
         width: rem(400px);
         font-size: rem(21px);
@@ -153,5 +152,22 @@
 }
 
 @include phones {
-    display: none;
+    
+    .welcome {
+        &__title.section-title {
+            font-size: 32px;
+            line-height: 36px;
+            text-align: center;
+        }
+
+        &__subtitle {
+            text-align: center;
+            line-height: 20px;
+            width: 90%;
+        }
+        &__img-block {
+            margin-left: 0;
+        }
+
+    }
 }
