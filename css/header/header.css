@@ -23,9 +23,15 @@
   .header__contacts {
     margin-left: 2.5555555556rem; }
   .header .contacts__phone {
-    display: flex; }
+    display: flex;
+    align-items: center; }
     .header .contacts__phone-icon {
-      display: inline-block; }
+      background: url("./../../img/header/Vector-2.png") center center no-repeat;
+      background-size: contain;
+      width: 14px;
+      height: 14px;
+      display: flex;
+      flex-shrink: 0; }
     .header .contacts__phone-number {
       display: flex;
       flex-shrink: 0;

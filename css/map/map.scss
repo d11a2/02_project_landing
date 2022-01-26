@@ -1,6 +1,14 @@
 @import "./../media";
 .map {
-    &__content {
-        background: url("./../../img/map/map.png") center center no-repeat;
+    height: 100vh;
+    background: url("./../../img/map/map.png") center center no-repeat;
+    background-size: cover;
+    position: relative;
+    &__container {
+        height: 100%;
     }
+    &__content {
+        
+    }
+
 }

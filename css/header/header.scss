@@ -42,9 +42,14 @@
     
     .contacts__phone {
         display: flex;
-
-        &-icon { 
-            display: inline-block;
+        align-items: center;
+        &-icon {
+            background: url("./../../img/header/Vector-2.png") center center no-repeat;
+            background-size: contain;
+            width: 14px;
+            height: 14px;
+            display: flex;
+            flex-shrink: 0;
         }
 
         &-number {

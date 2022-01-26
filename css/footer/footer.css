@@ -1,0 +1,149 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\000032}}
+.footer {
+  display: block;
+  width: 100%;
+  height: 86px;
+  position: absolute;
+  bottom: 0;
+  background: #fff;
+  font-size: 18px;
+  line-height: 24px;
+  color: #292929; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\0000313}}
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 20px 54px 10px 86px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\0000319}}
+  .footer .address {
+    font-style: normal;
+    margin-bottom: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\0000324}}
+  .footer .contacts__phone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\0000327}}
+    .footer .contacts__phone-icon.footer__phone {
+      background: url("./../../img/header/Vector-2.png") center center no-repeat;
+      background-size: contain;
+      width: 14px;
+      height: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\0000335}}
+    .footer .contacts__phone-number {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+      padding-left: 0.3333333333rem;
+      font-style: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\0000344}}
+  .footer .socials__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\0000348}}
+  .footer .socials__item {
+    margin-right: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\0000350}}
+    .footer .socials__item:last-child {
+      margin-right: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\0000354}}
+  .footer .socials__link {
+    display: block;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background: center center no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\0000363}}
+  .footer .socials__item-icon-telegram .socials__link {
+    background-image: url(./../../img/footer/telegram.png); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\0000367}}
+  .footer .socials__item-icon-vk .socials__link {
+    background-image: url(./../../img/footer/vk.png); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\0000370}}
+  .footer .socials__item-icon-fb .socials__link {
+    background-image: url(./../../img/footer/f.png); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\0000373}}
+  .footer .socials__item-icon-inst .socials__link {
+    background-image: url(./../../img/footer/in.png); }
+
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\0000381}}
+  .footer {
+    height: 107px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\0000383}}
+    .footer__container {
+      padding: 30px 39px 10px 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\0000387}}
+    .footer .address {
+      margin-bottom: 4px;
+      font-size: 21px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\0000392}}
+    .footer .contacts__phone .phone__link {
+      color: #E01F3D; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\0000396}}
+    .footer .socials__link {
+      width: 32px;
+      height: 32px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\00003103}}
+    .footer .contacts__phone .contacts__phone-icon.footer__phone {
+      background: url("./../../img/footer/Vector-8.png") center center no-repeat; } }
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\00003113}}
+  .footer {
+    height: 151px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\00003115}}
+    .footer__container {
+      padding: 20px 39px 10px 30px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\00003121}}
+    .footer__block {
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\00003124}}
+    .footer .address {
+      display: inline-block;
+      margin: auto;
+      margin-bottom: 12px;
+      font-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\00003130}}
+    .footer .contacts__phone {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      color: #292929;
+      margin-bottom: 19px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\00003136}}
+      .footer .contacts__phone .contacts__phone-icon.footer__phone {
+        background: url("./../../img/header/Vector-2.png") center center no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\00003142}}
+    .footer .socials__link {
+      width: 24px;
+      height: 24px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\00003147}}
+    .footer .contacts__phone .phone__link {
+      color: #292929;
+      font-size: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/footer\/footer\.scss}line{font-family:\00003153}}
+    .footer .socials__item {
+      margin-right: 14px; } }
+
+/*# sourceMappingURL=footer.css.map */
