@@ -1,0 +1,264 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\000033}}
+.shop {
+  height: 100vh;
+  width: 100%;
+  color: #292929;
+  padding-left: 5.9444444444rem;
+  padding-right: 3.3333333333rem;
+  background: #F8FAF9;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\0000312}}
+  .shop__slider {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\0000321}}
+  .shop__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\0000329}}
+  .shop__img-content {
+    min-width: 306px;
+    min-height: 306px;
+    max-height: 452px;
+    max-width: 452px;
+    height: 100%;
+    width: 50%;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\0000337}}
+    .shop__img-content .img-container {
+      width: 100%;
+      height: 100%;
+      background: url("./../../img/shop/Ellipse 6.png") no-repeat center center;
+      background-size: contain; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\0000343}}
+    .shop__img-content .shop__slider__link {
+      height: 27px;
+      width: 15px;
+      z-index: 100;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\0000350}}
+      .shop__img-content .shop__slider__link .shop-arrows {
+        width: 15px;
+        height: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\0000354}}
+      .shop__img-content .shop__slider__link#shop__left {
+        left: -47px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\0000357}}
+      .shop__img-content .shop__slider__link#shop__right {
+        right: -104.4%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\0000363}}
+  .shop__desc {
+    width: 50%;
+    max-width: 478px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 3.2777777778rem;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\0000373}}
+    .shop__desc__icon {
+      position: absolute;
+      width: 91px;
+      height: 91px;
+      left: 3.2777777778rem;
+      top: -116px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\0000380}}
+    .shop__desc__title {
+      text-transform: uppercase;
+      font-size: 36px;
+      line-height: 42px;
+      font-weight: 700; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\0000386}}
+    .shop__desc__text-block {
+      font-size: 16px;
+      line-height: 19px;
+      color: #666;
+      margin-top: 24px;
+      max-width: 368px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\0000393}}
+    .shop__desc__specifications {
+      margin-top: 27px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\0000398}}
+      .shop__desc__specifications__charger {
+        width: 62px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003100}}
+        .shop__desc__specifications__charger__title {
+          font-size: 16px;
+          line-height: 19px;
+          color: #666;
+          font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003106}}
+        .shop__desc__specifications__charger__value {
+          font-size: 18px;
+          line-height: 21px;
+          color: black;
+          font-weight: 700; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003113}}
+      .shop__desc__specifications__weight {
+        margin-left: 4.7777777778rem;
+        width: 100px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003116}}
+        .shop__desc__specifications__weight__title {
+          font-size: 16px;
+          line-height: 19px;
+          color: #666;
+          font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003122}}
+        .shop__desc__specifications__weight__value {
+          font-size: 18px;
+          line-height: 21px;
+          color: black;
+          font-weight: 700; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003130}}
+    .shop__desc__purchase {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 24px;
+      height: 60px;
+      width: 100%;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003136}}
+      .shop__desc__purchase__price {
+        width: 150px;
+        font-size: 36px;
+        line-height: 60px;
+        font-weight: 400;
+        -ms-flex-negative: 0;
+            flex-shrink: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003143}}
+      .shop__desc__purchase__btn .welcome__btn {
+        margin-left: 1px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 13px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003151}}
+  .shop:before {
+    position: absolute;
+    z-index: 20;
+    bottom: -1.5rem;
+    right: 6.3%;
+    content: url("./../../img/border_img/Rectangle 13.png"); }
+
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003161}}
+  .shop {
+    padding-left: 7%;
+    padding-right: 7%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003164}}
+    .shop__content {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003168}}
+    .shop__desc {
+      padding-left: 0;
+      margin-top: 49px;
+      width: 100%;
+      max-width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003174}}
+      .shop__desc__title {
+        text-align: center;
+        font-size: 28px;
+        line-height: 32px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003180}}
+      .shop__desc__text-block {
+        margin-top: 14px;
+        text-align: center;
+        max-width: 614px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003186}}
+      .shop__desc__specifications {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003189}}
+      .shop__desc__purchase {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003191}}
+        .shop__desc__purchase__price {
+          font-size: 40px;
+          line-height: 60px;
+          width: 196px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003199}}
+    .shop__img-content {
+      width: 306px;
+      height: 306px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003203}}
+      .shop__img-content .shop__slider__link#shop__left {
+        left: -25%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003206}}
+      .shop__img-content .shop__slider__link#shop__right {
+        right: -25%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003211}}
+    .shop__desc__icon {
+      display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003212}}
+    .shop::before {
+      right: 9.2%; } }
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003221}}
+  .shop__desc {
+    margin-top: 26px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003223}}
+    .shop__desc__text-block {
+      margin-top: 13px;
+      max-width: 412px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003227}}
+    .shop__desc__specifications {
+      margin-top: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003231}}
+    .shop__desc__purchase__price {
+      font-size: 32px;
+      line-height: 60px;
+      width: 148px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003239}}
+  .shop__img-content {
+    width: 75%;
+    min-width: 206px;
+    min-height: 206px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003244}}
+    .shop__img-content .shop__slider__link#shop__left {
+      left: -23%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003247}}
+    .shop__img-content .shop__slider__link#shop__right {
+      right: -23%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/shop\/shop\.scss}line{font-family:\00003252}}
+  .shop:before {
+    right: 11.5%; } }
+
+/*# sourceMappingURL=shop.css.map */

@@ -147,6 +147,10 @@
             display: flex;
             flex-direction:row;
            // align-items: center;
+            margin-top: 31px;
+            &:first-child {
+                margin-top: 0;
+            }
         .text-block {
             padding-left: 12px;
         }   

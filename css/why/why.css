@@ -156,8 +156,13 @@
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
-            flex-direction: row; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\00003150}}
+            flex-direction: row;
+    margin-top: 31px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\00003151}}
+    .why__item:first-child {
+      margin-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/why\/why\.scss}line{font-family:\00003154}}
     .why__item .text-block {
       padding-left: 12px; } }
+
 /*# sourceMappingURL=why.css.map */

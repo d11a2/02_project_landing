@@ -1,0 +1,256 @@
+@import "./../media";
+
+.shop {
+    height: 100vh;
+    width: 100%;
+    $mr_step: 7%;
+    color: $fcolor;
+    padding-left: rem(107px);
+    padding-right: rem(60px);
+    background: #F8FAF9;
+    position: relative;
+    &__slider {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        // align-items: center;
+        justify-content: center;
+        
+    }
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    
+    }
+    &__img-content {
+        min-width: 306px;
+        min-height: 306px;
+        max-height: 452px;
+        max-width: 452px;
+        height: 100%;
+        width: 50%;
+        position: relative;
+        .img-container {
+            width: 100%;
+            height: 100%;
+            background: url('./../../img/shop/Ellipse\ 6.png') no-repeat center center ;
+            background-size: contain;
+        }
+        .shop__slider__link {
+            height: 27px;
+            width: 15px;
+            z-index: 100;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            .shop-arrows {
+                width: 15px;
+                height: 30px;
+            }
+            &#shop__left {
+                left: -47px;
+            }
+            &#shop__right {
+                right: -104.4%;
+            }
+        }
+    }
+
+    &__desc {
+        width: 50%;
+        max-width: 478px;
+        display: flex;
+        //align-items: center;
+        flex-direction: column;
+        //justify-content: start;
+        padding-left: rem(59px);
+        position: relative;
+       
+        &__icon {
+            position: absolute;
+            width: 91px;
+            height: 91px;
+            left: rem(59px);
+            top: -116px;
+        }
+        &__title {
+            text-transform: uppercase;
+            font-size: 36px;
+            line-height: 42px;
+            font-weight: 700;
+        }
+        &__text-block {
+            font-size: 16px;
+            line-height: 19px;
+            color: #666;
+            margin-top: 24px;
+            max-width: 368px;
+        }
+        &__specifications {
+            margin-top: 27px;
+            display: flex;
+            width: 100%;
+            justify-content: start;
+            &__charger {
+                width: 62px;
+                &__title {
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #666;
+                    font-weight: 400;
+                }
+                &__value {
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: black;
+                    font-weight: 700;
+                }
+            }
+            &__weight {
+                margin-left: rem(86px);
+                width: 100px;
+                &__title {
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #666;
+                    font-weight: 400;
+                }
+                &__value {
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: black;
+                    font-weight: 700;
+                }
+            }
+        }
+        &__purchase {
+            display: flex;
+            margin-top: 24px;
+            height: 60px;
+            width: 100%;
+            justify-content: start;
+            &__price {
+                width: 150px;
+                font-size: 36px;
+                line-height: 60px;
+                font-weight: 400;
+                flex-shrink: 0;
+            }
+            &__btn .welcome__btn{
+                margin-left: 1px;
+                margin-top: 0;
+                margin-bottom: 0;
+                margin-left: 13px;
+            }
+        }
+    }
+    &:before {
+        position: absolute;
+        z-index: 20;
+        bottom: rem(-27px);
+        right: 6.3%;
+        content: url("./../../img/border_img/Rectangle\ 13.png");
+    }
+}
+
+@include tablets {
+    .shop {
+        padding-left: 7%;
+        padding-right: 7%;
+        &__content {
+            flex-direction: column;
+            width: 100%;
+        }
+        &__desc {
+            padding-left: 0;
+            margin-top: 49px;
+            width: 100%;
+            max-width: 100%;
+
+            &__title {
+                text-align: center;
+                font-size: 28px;
+                line-height: 32px;
+            }
+
+            &__text-block {
+                margin-top: 14px;
+                text-align: center;
+                max-width: 614px;
+            }
+
+            &__specifications {
+                justify-content: center;
+            }
+            &__purchase {
+                justify-content: center;
+                &__price {
+                    font-size: 40px;
+                    line-height: 60px;
+                    width: 196px;
+                }
+            }
+        }
+
+        &__img-content {
+            width: 306px;
+            height: 306px;
+            .shop__slider__link {
+                &#shop__left {
+                    left: -25%;
+                }
+                &#shop__right {
+                    right: -25%;
+                }
+            }
+        }
+        &__desc__icon { display: none;}  
+        &::before {
+            right: 9.2%;
+        }
+    }   
+}
+
+@include phones {
+
+    .shop {
+        &__desc {
+            margin-top: 26px;
+            &__text-block {
+                margin-top: 13px;
+                max-width: 412px;
+            }
+            &__specifications {
+                margin-top: 25px;
+            }
+            &__purchase { 
+                &__price {
+                    font-size: 32px;
+                    line-height: 60px;
+                    width: 148px;
+                }
+            }
+        }
+
+        &__img-content {
+            width: 75%;
+            min-width: 206px;
+            min-height: 206px;
+            .shop__slider__link {
+                &#shop__left {
+                    left: -23%;
+                }
+                &#shop__right {
+                    right: -23%;
+                }
+            }
+        }
+        &:before {
+            right: 11.5%;
+        }
+    }
+}
