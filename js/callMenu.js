@@ -1,16 +1,14 @@
 const burger = document.querySelector('#callMenu');
-const menu = document.querySelector('#menu');
-var closeFlag = false;
-let zIndex = 0;
+const menu = document.querySelector('.fullscreen-menu');
+const closeItem = document.querySelector('.fullscreen-menu__close')
+let closeFlag = false;
 
 burger.addEventListener('click', e => {
     
     if (closeFlag) {
         menu.classList.remove('active');
         
-        burger.classList.remove('called');
-
-        burger.style.zIndex = zIndex;
+        closeItem.classList.remove('called');
 
         closeFlag = false;
     }
@@ -20,12 +18,7 @@ burger.addEventListener('click', e => {
         
         burger.classList.add('called');
 
-        zIndex = burger.style.zIndex;
-        burger.style.zIndex = 1001;
-
         closeFlag = true;
     }
-
-    console.log(burger.style.zIndex);
 
 });
