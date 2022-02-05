@@ -1,0 +1,35 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/menu\/menu\.scss}line{font-family:\000032}}
+.fullscreen-menu {
+  height: 100vh;
+  width: 100%;
+  opacity: .9;
+  background-color: black;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/menu\/menu\.scss}line{font-family:\0000313}}
+  .fullscreen-menu .header__menu.vertical {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    font-size: 24px;
+    line-height: 44px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/menu\/menu\.scss}line{font-family:\0000320}}
+    .fullscreen-menu .header__menu.vertical .menu__list {
+      display: block;
+      margin: auto;
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/menu\/menu\.scss}line{font-family:\0000324}}
+      .fullscreen-menu .header__menu.vertical .menu__list-item {
+        margin-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/menu\/menu\.scss}line{font-family:\0000327}}
+      .fullscreen-menu .header__menu.vertical .menu__list .menu-link {
+        color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/menu\/menu\.scss}line{font-family:\0000332}}
+  .fullscreen-menu.active {
+    display: block; }
+
+/*# sourceMappingURL=menu.css.map */
