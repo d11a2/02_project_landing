@@ -27,9 +27,31 @@
     border-radius: 10px;
     border: 0; }
 
-@media screen and (max-width: 768px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/hamburger\.scss}line{font-family:\0000325}}
+.hamburger.called .hamburger__plank {
+  background: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/hamburger\.scss}line{font-family:\0000328}}
+  .hamburger.called .hamburger__plank:first-child {
+    z-index: 20;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: left;
+            transform-origin: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/hamburger\.scss}line{font-family:\0000334}}
+  .hamburger.called .hamburger__plank:last-child {
+    z-index: 31;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: left;
+            transform-origin: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/hamburger\.scss}line{font-family:\0000340}}
+  .hamburger.called .hamburger__plank:nth-child(2) {
+    display: none; }
+
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/hamburger\.scss}line{font-family:\0000347}}
   .hamburger {
     position: absolute;
     right: 0rem; } }
+
 /*# sourceMappingURL=hamburger.css.map */

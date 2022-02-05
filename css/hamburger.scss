@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: space-between;
     display: none;
-
+    
     @include tablets {
         display: inline-flex;
     }
@@ -20,6 +20,28 @@
         border: 0;
     }
 }
+
+.hamburger.called {
+    .hamburger__plank {
+        background: white;
+
+        &:first-child {
+            z-index: 20;
+            transform: rotate(45deg);
+            transform-origin: left;
+        }
+
+        &:last-child {
+            z-index: 31;
+            transform: rotate(-45deg);
+            transform-origin: left;
+        }
+
+        &:nth-child(2) {
+            display: none;
+        }
+    }
+} 
 
 @include tablets {
     .hamburger {

@@ -8,6 +8,7 @@
 @import url("./map/map.css");
 @import url("./footer/footer.css");
 @import url("./shop/shop.css");
+@import url("./menu/menu.css");
 html {
   font-size: 18px; }
   @media screen and (max-width: 768px) {
