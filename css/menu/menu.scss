@@ -1,3 +1,4 @@
+@import "./../media";
 
 .fullscreen-menu {
     height: 100vh;
@@ -9,7 +10,9 @@
     top: 0;
     left: 0;
     z-index: 1000;
-    
+    &.hamburger {
+        display: inline-flex;
+    }
     .header__menu.vertical {
         display: flex;
         
@@ -31,5 +34,42 @@
     }
     &.active {
         display: block;
+    }
+
+    .fullscreen-menu__close {
+        // не стал вставлять изображение, сэмитировал кликнутый бургер
+        width: 26px;
+        height: 22px;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: fixed;
+        top: 31px;
+        right: rem(22px);
+       
+        &__plank {
+            display: block;
+            background: $fcolor;
+            height: 4px;
+            border-radius: 10px;
+            border: 0;
+            background: white;
+
+            &:first-child {
+                z-index: 20;
+                transform: rotate(45deg);
+                transform-origin: left;
+            }
+    
+            &:last-child {
+                z-index: 31;
+                transform: rotate(-45deg);
+                transform-origin: left;
+            }
+    
+            &:nth-child(2) {
+                display: none;
+            }
+        }
     }
 }

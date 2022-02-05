@@ -23,23 +23,8 @@
 
 .hamburger.called {
     .hamburger__plank {
-        background: white;
+        display: none;
 
-        &:first-child {
-            z-index: 20;
-            transform: rotate(45deg);
-            transform-origin: left;
-        }
-
-        &:last-child {
-            z-index: 31;
-            transform: rotate(-45deg);
-            transform-origin: left;
-        }
-
-        &:nth-child(2) {
-            display: none;
-        }
     }
 } 
 
