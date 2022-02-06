@@ -15,7 +15,6 @@
         display: flex;
         // align-items: center;
         justify-content: center;
-        
     }
 
     &__content {
@@ -26,6 +25,7 @@
         width: 100%;
     
     }
+
     &__img-content {
         min-width: 306px;
         min-height: 306px;
@@ -76,7 +76,76 @@
             height: 91px;
             left: rem(59px);
             top: -116px;
+            
+            
+
+            .dropdown__block {
+                display: block;
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 273px;
+                height: 294px;
+                left: 91px; 
+
+                padding: 0 25px 34px 30px;
+                backdrop-filter: blur(40px);
+
+                font-size: 16px;
+                line-height: 24px;
+                border: none;
+                border-radius: 4px;
+
+                
+                display: none;
+                &::before {
+                    display: block;
+                    content: "";
+                    position: absolute;
+                    left: -91px;
+                    top: 0;
+                    width: sum2px(273px,91px);
+                    height: sum2px(274px,91px);
+                    opacity: 0;
+                }
+
+                .dropdown__block__items {
+                   
+                    .dropdown__block__item {
+                        display: flex;
+                        justify-content: space-between;
+                        width: 100%;
+                        height: 24px;
+                        margin-top: 28px;
+                        .item__specifications__wrapper {
+                            display: flex;
+                            .item__specification__icon {
+                                width: 24px;
+                                svg {
+                                    height: 100%;
+                                    width: 100%;
+                                }
+                            }
+                            .item__specification__name {
+                                padding-left: 16px;
+
+                            }
+                        }
+                    }
+                } 
+                   
+            }
+            
+
+            &:hover {
+                .dropdown__block {
+                    display: block;
+                }
+            }
         }
+
+
         &__title {
             text-transform: uppercase;
             font-size: 36px;
@@ -254,3 +323,5 @@
         }
     }
 }
+
+

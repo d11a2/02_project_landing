@@ -8,6 +8,13 @@ $fcolor: #292929;
     @return $px / $baseFontSize + 0rem;
 }
 
+@function sum2px($a,$b) {
+    @return $a + $b + 0px;
+}
+@function sum2pr($a,$b) {
+    @return $a + $b + 0%;
+}
+
 @mixin tablets {
     @media screen and (max-width: $tablets) {
         @content;
