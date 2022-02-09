@@ -1,63 +1,95 @@
 @import "./../media";
 
+$imgSize1100: 452px;
+$imgSize768: 306px;
+$imgSize320: 240px;
+
 .shop {
     height: 100vh;
     width: 100%;
     $mr_step: 7%;
     color: $fcolor;
-    padding-left: rem(107px);
-    padding-right: rem(60px);
     background: #F8FAF9;
     position: relative;
-    &__slider {
+    &-container {
         height: 100%;
         width: 100%;
         display: flex;
-        // align-items: center;
+       // align-items: center;
         justify-content: center;
+        flex-direction: column;
     }
 
-    &__content {
+    &__slider {
+        position: relative;
+        padding-left: percentageOf1100(107px);
+        padding-right: percentageOf1100(60px);
+    }
+    &__slider__link {
+    
+        height: 27px;
+        width: 15px;
+        z-index: 100;
+        position: absolute;
+        top: $imgSize1100/2 + 30px;
+        transform: translateY(-50%);
+        .shop-arrows {
+            width: 15px;
+            height: 30px;
+        }
+        &#shop__left {
+            left: percentageOf1100(60.5px);
+        }
+        &#shop__right {
+            right: percentageOf1100(60.5px);
+        }
+    }
+
+    &__list {
+        left: 0;
+        height: 100%;
+        display: flex;
+        position: relative;
+       // transition: left .3s;
+        transition: left .3s;
+    }
+    &__item {
+        position: relative;
+        width: 100%;
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100%;
+        margin-left: 500px;
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+
+    &__content {
+        
+        display: flex;
+        position: relative;
+        min-height: $imgSize1100 + 60px;
         width: 100%;
-    
+        
     }
 
     &__img-content {
-        min-width: 306px;
-        min-height: 306px;
-        max-height: 452px;
-        max-width: 452px;
+        min-width: $imgSize768;
+        min-height: $imgSize768;
+        max-height: $imgSize1100;
+        max-width: $imgSize1100;
         height: 100%;
         width: 50%;
         position: relative;
+        margin-top: 30px;
         .img-container {
             width: 100%;
             height: 100%;
-            background: url('./../../img/shop/Ellipse\ 6.png') no-repeat center center ;
-            background-size: contain;
+            object-fit: contain;
         }
-        .shop__slider__link {
-            height: 27px;
-            width: 15px;
-            z-index: 100;
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            .shop-arrows {
-                width: 15px;
-                height: 30px;
-            }
-            &#shop__left {
-                left: -47px;
-            }
-            &#shop__right {
-                right: -104.4%;
-            }
-        }
+        
     }
 
     &__desc {
@@ -67,17 +99,20 @@
         //align-items: center;
         flex-direction: column;
         //justify-content: start;
-        padding-left: rem(59px);
+        padding-left: percentageOf1100(59px);
         position: relative;
        
         &__icon {
-            position: absolute;
+            //@at-root: absolute;
             width: 91px;
             height: 91px;
-            left: rem(59px);
-            top: -116px;
+            //top: -30px;
+            position: relative;
             
-            
+            svg {
+                width: 100%;
+                height: 100%;
+            }
 
             .dropdown__block {
                 display: block;
@@ -151,6 +186,7 @@
             font-size: 36px;
             line-height: 42px;
             font-weight: 700;
+            margin-top: 25px;
         }
         &__text-block {
             font-size: 16px;
@@ -228,11 +264,14 @@
 
 @include tablets {
     .shop {
-        padding-left: 7%;
-        padding-right: 7%;
         &__content {
+            height: auto;
+            // padding-left: percentageOf768(80px);
+            // padding-right: percentageOf768(80px);
+        }
+        &__item {
             flex-direction: column;
-            width: 100%;
+            align-items: center;
         }
         &__desc {
             padding-left: 0;
@@ -266,17 +305,21 @@
         }
 
         &__img-content {
-            width: 306px;
-            height: 306px;
-            .shop__slider__link {
-                &#shop__left {
-                    left: -25%;
-                }
-                &#shop__right {
-                    right: -25%;
-                }
+            width: $imgSize768;
+            height: $imgSize768;
+            margin-top: 0;
+        }
+        &__slider__link {
+            &#shop__left {
+                top: $imgSize768/2;
+                left: percentageOf768(156.5px);
+            }
+            &#shop__right {
+                top: $imgSize768/2;
+                right: percentageOf768(162.5px);;
             }
         }
+
         &__desc__icon { display: none;}  
         &::before {
             right: 9.2%;
@@ -287,6 +330,10 @@
 @include phones {
 
     .shop {
+        &__content {
+            padding-left: percentageOf480(34px);
+            padding-right: percentageOf480(34px);
+        }
         &__desc {
             margin-top: 26px;
             &__text-block {
@@ -306,16 +353,18 @@
         }
 
         &__img-content {
-            width: 75%;
-            min-width: 206px;
-            min-height: 206px;
-            .shop__slider__link {
-                &#shop__left {
-                    left: -23%;
-                }
-                &#shop__right {
-                    right: -23%;
-                }
+             width: 90%;
+             min-width: $imgSize320;
+             min-height: $imgSize320;
+            
+        }
+
+        &__slider__link {
+            &#shop__left {
+                left: 13.5px;
+            }
+            &#shop__right {
+                right: 13.5px;
             }
         }
         &:before {

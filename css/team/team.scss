@@ -1,0 +1,151 @@
+@import "./../media";
+
+.team {
+    font-size: 18px;
+    line-height: 21px;
+    color: $fcolor;
+
+    &-container {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__list {
+        display: flex;
+        justify-content: center;
+        margin-top: 53px;
+    }
+    &__item {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: percentageOf1100(20px);
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+    &__title {
+        margin-top: 25px;
+        border: 0;
+        background: none;
+    }
+    .triangle {
+        width: 0;
+        height: 0;
+        display: inline-block;
+        position: relative;
+        margin-left: 4px;
+        border: 4.5px solid transparent;
+        border-top-width: 9px;
+        border-top-color: #E01F3D;
+        border-bottom-width: 0;
+        transition: .2s;
+    }
+    .turned {
+        transform: rotate(180deg);
+    }
+
+    &__member {
+        display: block;
+        //height: 290px;
+        width: 100%;
+        &__photo {
+            height: 100%;
+            width: 100%;
+            max-width: 220px;
+        }
+    }
+    &__content {
+        overflow: hidden;
+        height: 0;
+        transition: height .2s;
+        position: absolute;
+        top: 100%;
+
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        font-weight: 400;
+
+        padding-top: 11px;
+
+        &-text {
+            color: #666;
+            padding-top: 4px;
+        }
+    }
+
+    .vertical-version {
+        flex-direction: column;
+        display: none;
+    }
+}
+
+@include tablets {
+    .team {
+        .horizontal-version {
+            display: none;
+        }
+        .vertical-version {
+            display: flex;
+        }
+        &__content {
+            position: relative;
+            padding-top: 15px;
+            top: 0;
+            width: 222px;
+            &-prof {
+                font-size: 18px;
+                line-height: 21px;
+                margin-top: 21px;
+                font-weight: 700;
+            }
+            &-text {
+                color: #666;
+                padding-top: 10px;
+                line-height: 18.5px;
+            }
+        }
+        &__list.vertical-version {
+            margin-top: 17px;
+        }
+        &__title {
+            margin-top: 16px;
+            font-size: 21px;
+            line-height: 25px;
+        }
+    }
+}
+
+@include phones {
+
+    .team {
+        
+        &__content {
+            padding-top: 13px;
+            width: 137px;
+            width: percentageOf480(329px);
+            &-prof {
+                line-height: 20.8px;
+                margin-top: 18px;
+            }
+            &-text {
+                padding-top: 13px;
+            }
+        }
+        &__list.vertical-version {
+            margin-top: 30px;
+        }
+        &__title {
+            margin-top: 6px;
+        }
+        &__member {
+            max-width: 138px;
+            height: 180px;
+            margin: auto;
+        }
+    }
+}

@@ -77,7 +77,7 @@ a {
     width: 100%;
     margin: auto;
     height: 100%;
-    max-width: $cntnrWidth;
+    max-width: $bodyContainerWidth;
 }
 
 
@@ -91,4 +91,5 @@ a {
 @import url("./map/map.css");
 @import url("./footer/footer.css");
 @import url('./shop/shop.css');
-@import url('./menu/menu.css')
+@import url('./menu/menu.css');
+@import url('./team/team.css');

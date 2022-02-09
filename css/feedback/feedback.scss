@@ -10,14 +10,32 @@
         flex-direction: column;
         align-items: center;
     }
-    &__content {
-        margin-top: rem(32px);
-        background-color: #F8FAF9;
-        padding: rem(42px);
-        width: rem(940px);
-        display: flex;
 
+    &__content {
+        width: rem(940px); 
+        padding: rem(42px);  
+        margin-top: rem(32px);
+        background-color: #F8FAF9; 
+        position: relative;  
+        &::before {
+            position: absolute;
+            content: "";
+            top: -19px;
+            left: 50%;
+            width: 83px;
+            height: 83px;
+            background: white;
+            border-radius: 50%;
+            
+            transform: translate(-50%, -50%);
+            display: block;
+        }  
     }
+   
+    &__content__item {
+        display: none;
+    }
+
     &__img {
         width: rem(253px);
     }
@@ -74,6 +92,15 @@
     .active {
         border: solid 4px #E01F3D;
     }
+    .feedback__content__item.active {
+        display: flex;
+        border: 0;
+    }
+
+    &-title {
+        z-index: 10;
+    }
+
     &__link {
         position: absolute;
         display: block;
@@ -102,26 +129,24 @@
 @include tablets {
     .feedback {
         &__content {
+           width: 94%;
+           padding: 56px 23px 15px 23px;
+            margin-top: 33px;
+            &::before {
+                top: -7px;
+            }  
+        }
+
+
+        &__content__list {
+            position: relative;            
+        }
+        &__content__item {
             flex-direction: column;
             align-items: center;
             text-align: center;
-            width: 94%;
-            padding: 56px 23px 15px 23px;
-            margin-top: 33px;
             position: relative;
-            &::before {
-                position: absolute;
-                content: "";
-                top: -6.6px;
-                left: 50%;
-                width: 83px;
-                height: 83px;
-                background: white;
-                border-radius: 50%;
-                
-                transform: translate(-50%, -50%);
-                display: block;
-            }
+            
         }
         &__img {
             width: 130px;
