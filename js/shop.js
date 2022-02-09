@@ -40,6 +40,7 @@ setItemsWidth(items,slideContainer);
 
 $(window).resize(e => { 
     setItemsWidth(items,slideContainer);
+    list.css('left', "0px");
 });
 
 const slider = $('.shop__slider');
@@ -57,6 +58,9 @@ leftArrow.click( e => {
     let currentL = parseInt(list.css('left'));
     if(currentL == (-step)) {
         list.css('left', `${currentL + step}px`) ;
+    } else {if(currentL < 0){
+        list.css('left', `${0}px`) ;
+        }
     }
     
 });
@@ -72,6 +76,7 @@ rightArrow.click( e => {
     let currentL = parseInt(list.css('left'));
     if(currentL == 0 ) {
         list.css('left', `${currentL - step}px`) ;
-    }
-    
+    } else if (currentL > 0) {
+        list.css('left', `${step}px`) ;
+        }
 });
