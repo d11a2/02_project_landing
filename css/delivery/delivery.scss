@@ -204,7 +204,6 @@
             text-align: center;
         }
         .form__raw {
-            //display: flex;
             justify-content: center;
             
         }
@@ -213,4 +212,36 @@
         }
         
     } 
+}
+
+.modal {
+    display: none;
+    max-width: 400px;
+    &__container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    &__content {
+        text-align: center !important;
+        font-size: rem(16px);
+        text-transform: uppercase;
+        line-height: 25px;
+    }
+}
+
+.error-modal {
+    .modal__content {
+        color: #CA1B36;
+    }
+}
+.input-error {
+    border: 2px solid red;
+}
+
+.app-close-modal {
+    margin-top: 25px;
+    margin-bottom: 0;
 }
