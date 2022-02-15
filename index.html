@@ -9,9 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
 
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <div class="body-wrapper">
@@ -544,39 +544,41 @@
                             закажите доставку
                         </h1>
                         <form  class="delivery__form" action="">
+                                <input type="hidden" name="to" value="onet@gmail.com">
                                 <div class="form__col">
                                     <div class="form__raw">
                                         <label for="" class="form__block mr5p">
                                             <div class="form__title">Имя</div>
-                                            <input type="text" class="form__input">
+                                            <input type="text" name="name" class="form__input">
                                         </label>
                                         <label for="" class="form__block">
                                             <div class="form__title">Телефон</div>
-                                            <input type="text" class="form__input">
+                                            <input type="text" name="phone" class="form__input">
                                         </label>
                                     </div>
                                     <div class="form__raw">
                                         <label for="" class="form__block">
                                             <div class="form__title">Улица</div>
-                                            <input type="text" class="form__input">
+                                            <input type="text" name="street" class="form__input">
                                         </label>
                                     </div>
                                     <div class="form__raw">
                                         <label for="" class="form__block">
                                             <div class="form__title">Дом</div>
-                                            <input type="text" class="form__input">
+                                            <input type="text" name="home" class="form__input">
                                         </label>
                                         <label for="" class="form__block">
                                             <div class="form__title">Корпус</div>
-                                            <input type="text" class="form__input">
+                                            <input type="text" name="part" class="form__input">
                                         </label>
                                         <label for="" class="form__block">
                                             <div class="form__title">Квартира</div>
-                                            <input type="text" class="form__input">
+                                            <input type="text" name="apartment" class="form__input">
                                         </label>
                                         <label for="" class="form__block">
                                             <div class="form__title">Этаж</div>
-                                            <input type="text" class="form__input">
+                                            <input type="text" 
+                                           name="floor" class="form__input">
                                         </label>
                                     </div>  
                                 </div>
@@ -585,7 +587,7 @@
                                     <div class="form__raw">
                                         <label for="" class="form__block">
                                             <div class="form__title">Комментарий</div>
-                                            <textarea type="text" class="form__input form__input-textarea"></textarea>
+                                            <textarea type="text" name="comment" class="form__input form__input-textarea"></textarea>
                                         </label>
                                     </div>
                                     <div class="form__raw">
@@ -619,12 +621,19 @@
                                     </div>   
                                     <div class="form__raw mb0">
                                         <div class="form__btns">
-                                            <button class="welcome__btn">Заказать</button>
+                                            <button id="loadButton" class="welcome__btn">Заказать</button>
                                             <button class="welcome__btn">Очистить</button>
                                         </div>
                                     </div> 
                                 </div>
                         </form>
+                        <div class="modal" id="modalId">
+                           <div class="modal__container">
+                                <div class="modal__content"></div>
+                                <button class="btn welcome__btn app-close-modal">Закрыть</button> 
+                           </div>
+
+                        </div>
                     </div>
                     
                 </div>
@@ -730,10 +739,14 @@
         </nav>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
     <script src="./js/callMenu.js"></script>
     <script src="./js/feedback.js"></script>
     <script src="./js/team.js"></script>
     <script src="./js/shop.js"></script>
+
+    <script src="./js/modal.js"></script>
 </body>
 </html>
