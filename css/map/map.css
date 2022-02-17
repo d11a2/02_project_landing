@@ -1,10 +1,8 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/map\/map\.scss}line{font-family:\000032}}
 .map {
   height: 100vh;
   background: url("./../../img/map/map.png") center center no-repeat;
   background-size: cover;
   position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/map\/map\.scss}line{font-family:\000037}}
   .map__container {
     height: 100%; }
 

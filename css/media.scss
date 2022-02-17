@@ -2,7 +2,8 @@ $bodyContainerWidth: 1100px;
 $baseFontSize: 18px;
 $tablets: 768px;
 $phones: 480px;
-$fcolor: #292929;
+$black: #292929;
+$orange: #E01F3D;
 
 @function rem($px) {
     @return $px / $baseFontSize + 0rem;
@@ -15,15 +16,20 @@ $fcolor: #292929;
     @return $a + $b + 0%;
 }
 
-@function percentageOf1100($width) {
-    @return ($width / 1100px) * 100%;
+@function percentOf1100($width) {
+    @return ($width / $bodyContainerWidth) * 100%;
 }
-@function percentageOf768($width) {
-    @return ($width / 768px) * 100%;
+@function percentOf768($width) {
+    @return ($width / $tablets) * 100%;
 }
-@function percentageOf480($width) {
-    @return ($width / 480px) * 100%;
+@function percentOf480($width) {
+    @return ($width / $phones) * 100%;
 }
+
+@function percentOf652($width) {
+    @return ($width / 652px) * 100%;
+}
+
 
 @mixin tablets {
     @media screen and (max-width: $tablets) {

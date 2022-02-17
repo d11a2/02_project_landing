@@ -1,56 +1,29 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\000033}}
 .team {
   font-size: 18px;
   line-height: 21px;
   color: #292929; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\000038}}
   .team-container {
     height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\0000315}}
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
   .team__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     margin-top: 53px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\0000320}}
   .team__item {
     position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
     margin-left: 1.8181818182%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\0000326}}
     .team__item:first-child {
       margin-left: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\0000330}}
   .team__title {
     margin-top: 25px;
     border: 0;
     background: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\0000335}}
   .team .triangle {
     width: 0;
     height: 0;
@@ -61,26 +34,19 @@
     border-top-width: 9px;
     border-top-color: #E01F3D;
     border-bottom-width: 0;
-    -webkit-transition: .2s;
     transition: .2s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\0000347}}
   .team .turned {
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\0000351}}
+    transform: rotate(180deg); }
   .team__member {
     display: block;
     width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\0000355}}
     .team__member__photo {
       height: 100%;
       width: 100%;
       max-width: 220px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\0000361}}
   .team__content {
     overflow: hidden;
     height: 0;
-    -webkit-transition: height .2s;
     transition: height .2s;
     position: absolute;
     top: 100%;
@@ -89,72 +55,52 @@
     text-align: center;
     font-weight: 400;
     padding-top: 11px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\0000375}}
     .team__content-text {
       color: #666;
       padding-top: 4px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\0000381}}
   .team .vertical-version {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     display: none; }
 
 @media screen and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\0000389}}
   .team .horizontal-version {
     display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\0000392}}
   .team .vertical-version {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\0000395}}
   .team__content {
     position: relative;
     padding-top: 15px;
     top: 0;
     width: 222px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\00003100}}
     .team__content-prof {
       font-size: 18px;
       line-height: 21px;
       margin-top: 21px;
       font-weight: 700; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\00003106}}
     .team__content-text {
       color: #666;
       padding-top: 10px;
       line-height: 18.5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\00003112}}
   .team__list.vertical-version {
     margin-top: 17px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\00003115}}
   .team__title {
     margin-top: 16px;
     font-size: 21px;
     line-height: 25px; } }
 @media screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\00003127}}
   .team__content {
     padding-top: 13px;
     width: 137px;
     width: 68.5416666667%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\00003131}}
     .team__content-prof {
       line-height: 20.8px;
       margin-top: 18px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\00003135}}
     .team__content-text {
       padding-top: 13px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\00003139}}
   .team__list.vertical-version {
     margin-top: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\00003142}}
   .team__title {
     margin-top: 6px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/team\/team\.scss}line{font-family:\00003145}}
   .team__member {
     max-width: 138px;
     height: 180px;

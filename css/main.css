@@ -10,6 +10,8 @@
 @import url("./shop/shop.css");
 @import url("./menu/menu.css");
 @import url("./team/team.css");
+@import url("./product-menu/product-menu.css");
+@import url("./fixed-menu/fixed-menu.css");
 html {
   font-size: 18px; }
   @media screen and (max-width: 768px) {
@@ -52,13 +54,16 @@ a {
   text-decoration: none; }
 
 .body-wrapper {
-  min-height: 100%;
+  height: 100%;
   overflow: hidden;
   display: flex;
   justify-content: center; }
 
 .body-container {
-  width: 100%; }
+  width: 100%;
+  height: 100%;
+  transition: transform 1.2s;
+  will-change: transform; }
 
 .section-title {
   text-transform: uppercase;

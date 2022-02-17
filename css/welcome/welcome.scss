@@ -5,7 +5,7 @@
     height: 100vh;
     width: 100%;
     $mr_step: 7%;
-    color: $fcolor;
+    color: $black;
     padding-left: $mr_step;
     padding-right: 10%;
     background: #F5F5F5;
@@ -47,14 +47,14 @@
         width: rem(400px);
         font-size: rem(21px);
         line-height: rem(25px);
-        color: $fcolor;
+        color: $black;
     }
     
     &__btn {
         width: rem(163px);
         height: rem(54px);
         color: white;
-        background: #E01F3D;
+        background: $orange;
         font-size: rem(16px);
         line-height: rem(18px);
         border: 0px;
@@ -66,10 +66,10 @@
     }
     
     &__btn:hover {
-        color: #E01F3D;
+        color: $orange;
         background: white;
         border: rem(2px);
-        border-color: #E01F3D;
+        border-color: $orange;
     }
     &__features {
         position: absolute;

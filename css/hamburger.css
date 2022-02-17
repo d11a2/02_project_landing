@@ -1,25 +1,14 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/hamburger\.scss}line{font-family:\000033}}
 .hamburger {
   width: 26px;
   height: 22px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  display: none; }
+  flex-direction: column;
+  justify-content: space-between;
+  display: none;
+  z-index: 11; }
   @media screen and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/hamburger\.scss}line{font-family:\000033}}
     .hamburger {
-      display: -webkit-inline-box;
-      display: -ms-inline-flexbox;
       display: inline-flex; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/hamburger\.scss}line{font-family:\0000315}}
   .hamburger__plank {
     display: block;
     background: #292929;
@@ -27,12 +16,10 @@
     border-radius: 10px;
     border: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/hamburger\.scss}line{font-family:\0000325}}
 .hamburger .called .hamburger__plank {
   display: none; }
 
 @media screen and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/css\/hamburger\.scss}line{font-family:\0000331}}
   .hamburger {
     position: absolute;
     right: 0rem; } }

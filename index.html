@@ -8,7 +8,7 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
 
     <link rel="stylesheet" href="css/main.css">
@@ -16,7 +16,7 @@
 <body>
     <div class="body-wrapper">
         <div class="body-container">
-            <section id="welcomeId" class="welcome">
+            <section data-section-id="welcome" class="welcome">
                 <div class="container">
                     <div class="welcome-container">
 
@@ -30,27 +30,27 @@
                                 <ul class="menu__list">
                                     
                                     <li class="menu__list-item">
-                                        <a href="#" class="menu-link">О нас</a>  
+                                        <a href="#" data-scroll-to="why" class="menu-link">О нас</a>  
                                     </li>
                                     <li class="menu__list-item">
-                                        <a href="#" class="menu-link">Наушники</a>  
+                                        <a href="#" data-scroll-to="shop" class="menu-link">Наушники</a>  
                                     </li>
                                     <li class="menu__list-item">
-                                        <a href="#" class="menu-link">Команда</a>
+                                        <a href="#" data-scroll-to="team" class="menu-link">Команда</a>
                                     </li>
                                     <li class="menu__list-item">
-                                        <a href="#" class="menu-link">Цвета</a>
+                                        <a href="#" data-scroll-to="product-menu" class="menu-link">Цвета</a>
                                     </li>    
                                     <li class="menu__list-item">
-                                        <a href="#" class="menu-link">Отзывы</a>
+                                        <a href="#" data-scroll-to="feedback" class="menu-link">Отзывы</a>
                                     </li>    
                                     <li class="menu__list-item">
-                                        <a href="#" class="menu-link">Как мы работаем</a>
+                                        <a href="#" data-scroll-to="delivery" class="menu-link">Как мы работаем</a>
                                     </li>    
                                     <li class="menu__list-item">
-                                        <a href="#" class="menu-link">Контакты</a>
+                                        <a href="#" data-scroll-to="map" class="menu-link">Контакты</a>
                                     </li>
-                                    
+                                
                                 </ul>
                                 
                             </nav>
@@ -77,7 +77,7 @@
                                     <div class="welcome__subtitle">
                                         <p>Встречайте новую версию наушников из линейки Powerbeats.</p>
                                     </div>
-                                    <button type="submit" class="welcome__btn">Заказать</button>
+                                    <button type="submit" data-scroll-to="delivery" class="welcome__btn">Заказать</button>
                                 </div>
                                 <div class="welcome__content-col">
                                     <div class="welcome__img-block">
@@ -117,9 +117,9 @@
                         </div>   
                     </div>
                 </div>
-               
             </section>
-            <section id="whyId" class="why">
+
+            <section data-section-id="why" class="why">
                 <div class="container">
                     <div class="why-container">
                         <h1 class="why__title section-title">
@@ -187,7 +187,8 @@
                     </div>
                 </div>
             </section>
-            <section id="shopId" class='shop'>
+
+            <section data-section-id="shop" class='shop'>
                 <div class="container">
                     <div class="shop-container">
                         <div class="shop__slider">
@@ -331,7 +332,8 @@
                     </div>
                 </div>
             </section>
-            <section id="teamId" class="team">
+
+            <section data-section-id="team" class="team">
                 <div class="container">
                     <div class="team-container">
                         <h1 class="team-title section-title">команда</h1>
@@ -454,7 +456,53 @@
                     </div>
                 </div>
             </section>
-            <section id="feedbackId" class="feedback">
+
+            <section data-section-id="product-menu" class="product-menu">
+                <h1 class="product-menu__section-title section-title">цвета</h1>
+                <ul class="product-menu__list">
+                    <li class="product-menu__item">
+                        <a href="" class="product-menu__title">
+                            <div class="product-menu__text">«Атласное серебро»</div>
+                        </a>
+                        <div class="product-menu__content">
+                            <div class="product-menu__container">
+                               
+                                <div class="product-menu__content-text">Наушники Beats Solo3 могут работать до 40 часов без подзарядки, чтобы вы могли пользоваться ими каждый день. 5‑минутной зарядки Fast Fuel хватит ещё на 3 часа воспроизведения. Фирменное звучание Beats в наушниках с технологией Bluetooth класса 1 будет сопровождать вас повсюду — куда бы вы ни отправились. 
+                                    Расположение чашек с мягкими амбушюрами можно регулировать — вы сможете носить их целый день.</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="product-menu__item">
+                        <a href="" class="product-menu__title">
+                            <div class="product-menu__text">«Чёрный матовый»</div>
+                        </a>
+                        <div class="product-menu__content">
+                            <div class="product-menu__container">
+                                <div class="product-menu__content-text">Наушники Beats Solo3 могут работать до 40 часов без подзарядки, чтобы вы могли пользоваться ими каждый день. 5‑минутной зарядки Fast Fuel хватит ещё на 3 часа воспроизведения. Фирменное звучание Beats в наушниках с технологией Bluetooth класса 1 будет сопровождать вас повсюду — куда бы вы ни отправились. 
+                                    Расположение чашек с мягкими амбушюрами можно регулировать — вы сможете носить их целый день.</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="product-menu__item">
+                        <a href="" class="product-menu__title">
+                            <div class="product-menu__text">«Красный цитрус»</div>
+                        </a>
+                        <div class="product-menu__content">
+                            <div class="product-menu__container">
+                                <!-- <button class="product-menu__close">
+                                    <img src="./img/product-menu/Vector.png" class="product-menu__close-icon">
+                                </button> -->
+                                <div class="product-menu__content-text">
+                                    Наушники Beats Solo3 могут работать до 40 часов без подзарядки, чтобы вы могли пользоваться ими каждый день. 5‑минутной зарядки Fast Fuel хватит ещё на 3 часа воспроизведения. Фирменное звучание Beats в наушниках с технологией Bluetooth класса 1 будет сопровождать вас повсюду — куда бы вы ни отправились. 
+Расположение чашек с мягкими амбушюрами можно регулировать — вы сможете носить их целый день.
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section data-section-id="feedback" class="feedback">
                 <div class="container">
                     <div class="feedback-container">
 
@@ -537,7 +585,8 @@
                     </div>
                 </div>
             </section>
-            <section id="deliveryId" class="delivery">
+
+            <section data-section-id="delivery" class="delivery">
                 <div class="delivery-container">
                     <div class="delivery-content-wrapper">
                         <h1 class="delivery-title section-title">
@@ -639,7 +688,8 @@
                 </div>
 
             </section>
-            <section id="mapId" class="map">
+
+            <section data-section-id="map" class="map">
                 <div class="container">
                     <div class="map__container">
                         <div class="map__content">
@@ -706,40 +756,87 @@
         </div>
     </div>
     <div class="fullscreen-menu">
-         <!-- не стал вставлять изображение, сэмитировал кликнутый бургер -->
+
+        <!-- не стал вставлять изображение, эмитировал кликнутый бургер -->
         <a href="" class="fullscreen-menu__close">            
             <span class="fullscreen-menu__close__plank"></span>
             <span class="fullscreen-menu__close__plank"></span>
             <span class="fullscreen-menu__close__plank"></span>
         </a>
+
         <nav class="header__menu vertical">                       
             <ul class="menu__list ">  
                 <li class="menu__list-item">
-                    <a href="#welcomeId" class="menu-link">О нас</a>  
+                    <a href="#" data-scroll-to="why" class="menu-link">О нас</a>  
                 </li>
                 <li class="menu__list-item">
-                    <a href="#whyId" class="menu-link">Наушники</a>  
+                    <a href="#" data-scroll-to="shop" class="menu-link">Наушники</a>  
                 </li>
                 <li class="menu__list-item">
-                    <a href="#teamId" class="menu-link">Команда</a>
+                    <a href="#" data-scroll-to="team" class="menu-link">Команда</a>
                 </li>
                 <li class="menu__list-item">
-                    <a href="#shopId" class="menu-link">Цвета</a>
+                    <a href="#" data-scroll-to="product-menu" class="menu-link">Цвета</a>
                 </li>    
                 <li class="menu__list-item">
-                    <a href="#feedbackId" class="menu-link">Отзывы</a>
+                    <a href="#" data-scroll-to="feedback" class="menu-link">Отзывы</a>
                 </li>    
                 <li class="menu__list-item">
-                    <a href="#deliveryId" class="menu-link">Как мы работаем</a>
+                    <a href="#" data-scroll-to="delivery" class="menu-link">Как мы работаем</a>
                 </li>    
                 <li class="menu__list-item">
-                    <a href="#mapId" class="menu-link">Контакты</a>
+                    <a href="#" data-scroll-to="map" class="menu-link">Контакты</a>
                 </li>
             </ul>
         </nav>
     </div>
+
+    <nav class="fixed-menu">
+        <ul class="fixed-menu__list">
+            <li class="fixed-menu__item" data-scroll-to="welcome">
+                <button class="fixed-menu__item-circle" >
+                    <div class="inner-circle"></div>
+                </button>
+            </li>
+            <li class="fixed-menu__item" data-scroll-to="why">
+                <button class="fixed-menu__item-circle" >
+                    <div class="inner-circle"></div>
+                </button>
+            </li>
+            <li class="fixed-menu__item" data-scroll-to="shop">
+                <button class="fixed-menu__item-circle" >
+                    <div class="inner-circle"></div>
+                </button>
+            </li>
+            <li class="fixed-menu__item" data-scroll-to="team">
+                <button class="fixed-menu__item-circle" >
+                    <div class="inner-circle"></div>
+                </button>
+            </li>
+            <li class="fixed-menu__item" data-scroll-to="product-menu">
+                <button class="fixed-menu__item-circle" >
+                    <div class="inner-circle"></div>
+                </button>
+            </li>
+            <li class="fixed-menu__item" data-scroll-to="feedback">
+                <button class="fixed-menu__item-circle" >
+                    <div class="inner-circle"></div>
+                </button>
+            </li>
+            <li class="fixed-menu__item" data-scroll-to="delivery">
+                <button class="fixed-menu__item-circle" >
+                    <div class="inner-circle"></div>
+                </button>
+            </li>
+            <li class="fixed-menu__item" data-scroll-to="map">
+                <button class="fixed-menu__item-circle" >
+                    <div class="inner-circle"></div>
+                </button>
+            </li>
+        </ul>
+    </nav>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
     <script src="./js/callMenu.js"></script>
@@ -748,5 +845,7 @@
     <script src="./js/shop.js"></script>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/product-menu.js"></script>
+    <script src="./js/ops.js"></script>
 </body>
 </html>

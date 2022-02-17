@@ -8,22 +8,21 @@ $imgSize320: 240px;
     height: 100vh;
     width: 100%;
     $mr_step: 7%;
-    color: $fcolor;
+    color: $black;
     background: #F8FAF9;
     position: relative;
     &-container {
         height: 100%;
         width: 100%;
         display: flex;
-       // align-items: center;
         justify-content: center;
         flex-direction: column;
     }
 
     &__slider {
         position: relative;
-        padding-left: percentageOf1100(107px);
-        padding-right: percentageOf1100(60px);
+        padding-left: percentOf1100(107px);
+        padding-right: percentOf1100(60px);
     }
     &__slider__link {
     
@@ -38,10 +37,10 @@ $imgSize320: 240px;
             height: 30px;
         }
         &#shop__left {
-            left: percentageOf1100(60.5px);
+            left: percentOf1100(60.5px);
         }
         &#shop__right {
-            right: percentageOf1100(60.5px);
+            right: percentOf1100(60.5px);
         }
     }
 
@@ -50,7 +49,6 @@ $imgSize320: 240px;
         height: 100%;
         display: flex;
         position: relative;
-       // transition: left .3s;
         transition: left .3s;
     }
     &__item {
@@ -99,7 +97,7 @@ $imgSize320: 240px;
         //align-items: center;
         flex-direction: column;
         //justify-content: start;
-        padding-left: percentageOf1100(59px);
+        padding-left: percentOf1100(59px);
         position: relative;
        
         &__icon {
@@ -266,8 +264,6 @@ $imgSize320: 240px;
     .shop {
         &__content {
             height: auto;
-            // padding-left: percentageOf768(80px);
-            // padding-right: percentageOf768(80px);
         }
         &__item {
             flex-direction: column;
@@ -312,11 +308,11 @@ $imgSize320: 240px;
         &__slider__link {
             &#shop__left {
                 top: $imgSize768/2;
-                left: percentageOf768(156.5px);
+                left: percentOf768(156.5px);
             }
             &#shop__right {
                 top: $imgSize768/2;
-                right: percentageOf768(162.5px);;
+                right: percentOf768(162.5px);;
             }
         }
 
@@ -331,8 +327,8 @@ $imgSize320: 240px;
 
     .shop {
         &__content {
-            padding-left: percentageOf480(34px);
-            padding-right: percentageOf480(34px);
+            padding-left: percentOf480(34px);
+            padding-right: percentOf480(34px);
         }
         &__desc {
             margin-top: 26px;

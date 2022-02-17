@@ -3,7 +3,7 @@
 .team {
     font-size: 18px;
     line-height: 21px;
-    color: $fcolor;
+    color: $black;
 
     &-container {
         height: 100%;
@@ -22,7 +22,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: percentageOf1100(20px);
+        margin-left: percentOf1100(20px);
         &:first-child {
             margin-left: 0;
         }
@@ -127,7 +127,7 @@
         &__content {
             padding-top: 13px;
             width: 137px;
-            width: percentageOf480(329px);
+            width: percentOf480(329px);
             &-prof {
                 line-height: 20.8px;
                 margin-top: 18px;

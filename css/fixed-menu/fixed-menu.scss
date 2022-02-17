@@ -1,0 +1,90 @@
+@import "./../media";
+
+
+.fixed-menu {
+
+    position: fixed;
+    top: percentOf652(240px);
+    right: percentOf1100(44px);
+
+    &__list {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item {
+
+        margin-top: -2px;
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        
+    }
+    
+    &__item-circle {
+
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.0);
+        
+        border-radius: 50%;
+        border: 1px solid rgba(0, 0, 0, 0.0);
+
+    }
+    
+    .inner-circle {  
+
+        width: 0;
+        height: 0;
+        border: 3px solid $black;
+        border-radius: 50%;
+        
+    }
+    
+    .active {
+
+        .fixed-menu__item-circle {
+            border: 1px solid $orange;
+            .inner-circle { 
+                border-color: $orange;
+            }
+        }        
+    }
+
+    // т.к. не обнаружил в макете указаний на случай, когда цвета фиксид-меню сливаются с цветами секций,
+    // решил проблему изменением цветов фиксид-меню для таких секций.
+
+    .fixed-menu__list.grey {
+
+        .inner-circle { 
+            border-color: #666;
+        }
+    
+        .active {
+            .fixed-menu__item-circle {
+                border-color: #666;
+            }    
+        } 
+    }
+
+    .fixed-menu__list.red {
+
+        .inner-circle { 
+            border-color: #666;
+        }
+        
+        .active {
+            .fixed-menu__item-circle {
+                border: 1px solid $orange;
+            }
+        } 
+    }
+}
+
+  
+
+   
+    
+
