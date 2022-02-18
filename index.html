@@ -45,7 +45,7 @@
                                         <a href="#" data-scroll-to="feedback" class="menu-link">Отзывы</a>
                                     </li>    
                                     <li class="menu__list-item">
-                                        <a href="#" data-scroll-to="delivery" class="menu-link">Как мы работаем</a>
+                                        <a href="#" data-scroll-to="video-player" class="menu-link">Как мы работаем</a>
                                     </li>    
                                     <li class="menu__list-item">
                                         <a href="#" data-scroll-to="map" class="menu-link">Контакты</a>
@@ -586,6 +586,48 @@
                 </div>
             </section>
 
+            <section data-section-id="video-player" class="video-player">
+                <div class="container">
+                    <h1 class="section-title">как мы работаем</h1>
+                    <div class="player-container">
+                        <div class="player ">
+                            
+                            <div class="player__wrapper">
+                                <div id="yt-player" class="player__elem"></div>
+                                <div class="player__splash">
+                                    <img src="./img/video-player/Vector-4.png" alt="" class="splash-icon">
+                                </div>
+                            </div>
+            
+                            <div class="player__controls">
+                                <button class="player__start btn"></button>
+                                <div class="player__playback">
+                                    <div class="player__playback-slider">
+                                        <div class="inner-circle"></div>
+                                        <div class="player__playback__progress-line"></div>
+
+                                    </div>
+                                </div>
+                                <div class="player__volume">
+                                    <button class="player__volumeOffbutton btn"></button>
+                                    <div class="player__volume-slider">
+                                        <div class="inner-circle"></div>
+                                        <div class="player__playback__progress-line"></div>
+                                    </div> 
+                                </div>
+                                <div class="player__duration">
+                                    <span class="player__duration__completed">0:00</span><span class="space39_9d">/</span>
+                                    <span class="player__duration__estimate">0:00</span>
+                                </div>
+                            </div>
+
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section data-section-id="delivery" class="delivery">
                 <div class="delivery-container">
                     <div class="delivery-content-wrapper">
@@ -782,7 +824,7 @@
                     <a href="#" data-scroll-to="feedback" class="menu-link">Отзывы</a>
                 </li>    
                 <li class="menu__list-item">
-                    <a href="#" data-scroll-to="delivery" class="menu-link">Как мы работаем</a>
+                    <a href="#" data-scroll-to="video-player" class="menu-link">Как мы работаем</a>
                 </li>    
                 <li class="menu__list-item">
                     <a href="#" data-scroll-to="map" class="menu-link">Контакты</a>
@@ -823,6 +865,11 @@
                     <div class="inner-circle"></div>
                 </button>
             </li>
+            <li class="fixed-menu__item" data-scroll-to="video-player">
+                <button class="fixed-menu__item-circle" >
+                    <div class="inner-circle"></div>
+                </button>
+            </li>
             <li class="fixed-menu__item" data-scroll-to="delivery">
                 <button class="fixed-menu__item-circle" >
                     <div class="inner-circle"></div>
@@ -847,5 +894,7 @@
     <script src="./js/modal.js"></script>
     <script src="./js/product-menu.js"></script>
     <script src="./js/ops.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="./js/player.js"></script>
 </body>
 </html>
