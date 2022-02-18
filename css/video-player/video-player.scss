@@ -129,6 +129,8 @@
         border: 6px solid $orange;
         border-radius: 50%;
 
+        transform: translateX(-6px);
+
     }
 
     .player__playback__progress-line {
@@ -144,7 +146,7 @@
 
         background-color: $orange;
     }
-            
+     
     .player__duration {
 
         position: absolute;

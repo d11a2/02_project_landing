@@ -15,6 +15,7 @@ let eventsInit = () => {
     });
 };
 
+
 $(".player__playback").click( e => {
     const bar = $(e.currentTarget);
     const clickedPosition = e.originalEvent.layerX;
@@ -22,13 +23,28 @@ $(".player__playback").click( e => {
     const newPlaybackPositionSecond = 
     (player.getDuration() / 100) * newCirclePositionPercent;
 
-
     $(".player__playback-slider .inner-circle").css({
         left: `${newCirclePositionPercent}%`
     });
 
     player.seekTo(newPlaybackPositionSecond);
 
+});
+
+$(".player__volume-slider").click( e => {
+    const bar = $(e.currentTarget);
+    const clickedPosition = e.originalEvent.layerX;
+    const newCirclePositionPercent = clickedPosition / bar.width() * 100;
+
+    $(".player__volume-slider .inner-circle").css({
+        left: `${newCirclePositionPercent}%`
+    });
+
+    $(".player__volume-slider .player__playback__progress-line").css({
+        width: `${newCirclePositionPercent}%`
+    });
+
+    player.setVolume(newCirclePositionPercent);
 });
 
 $(".player__splash").click( e => {
@@ -73,6 +89,16 @@ const onPlayerReady = () => {
 
         $(".player__duration__completed").text(formatTime(completedSec));
     } , 1000);
+
+    $(".player__volume-slider .inner-circle").css({
+        left: `${50}%`
+    });
+
+    $(".player__volume-slider .player__playback__progress-line").css({
+        width: `${50}%`
+    });
+
+    player.setVolume(50);
 };
 
 const onPlayerStateChange = event => {
